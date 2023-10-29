@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Blockofaluminum"
+    },
+    "name": "bauxiterecipe_4",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "enrich_with_katana:custom/katana",
+  "textures": {
+    "0": "enrich_with_katana:blocks/katana_texsture0",
+    "particle": "enrich_with_katana:items/iron_katana"
+  }
+}

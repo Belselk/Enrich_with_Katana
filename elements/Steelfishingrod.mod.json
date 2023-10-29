@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "steelfishingrod",
+    "customModelName": "Normal",
+    "name": "Steelfishingrod",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Enrichwithkatana"
+    },
+    "toolType": "Fishing rod",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 8,
+    "damageVsEntity": 4.0,
+    "usageCount": 96,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Wire"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "SL_FR_have_pr"
+    }
+  }
+}

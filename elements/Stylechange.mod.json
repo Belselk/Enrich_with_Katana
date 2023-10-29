@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Style change",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "Base_style_change_pr"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "minecraft:leather"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "4": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "5": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "7": {
+      "item": "enrich_with_katana:wire"
+    }
+  },
+  "result": {
+    "item": "minecraft:saddle",
+    "count": 1
+  }
+}

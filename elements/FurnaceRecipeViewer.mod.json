@@ -1,0 +1,141 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 100,
+    "inventoryOffsetX": 600,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": ">",
+          "onClick": {
+            "name": "FRS_right_pr"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 276,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "<",
+          "onClick": {
+            "name": "FRS_left_pr"
+          },
+          "width": 17,
+          "height": 20,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 168,
+          "y": 116
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 191,
+          "y": 93
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 191,
+          "y": 116
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 191,
+          "y": 139
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 10,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 223,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_x",
+          "text": "x",
+          "onClick": {
+            "name": "FRS_close_pr"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 276,
+          "y": 74
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_set",
+          "text": "SET",
+          "onClick": {
+            "name": "FRS_set_pr"
+          },
+          "width": 26,
+          "height": 20,
+          "x": 245,
+          "y": 142
+        }
+      }
+    ],
+    "onTick": {
+      "name": "FRS_tick_pr"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

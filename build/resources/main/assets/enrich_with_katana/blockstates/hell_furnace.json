@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enrich_with_katana:block/hell_furnace"
+    },
+    "facing=east": {
+      "model": "enrich_with_katana:block/hell_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enrich_with_katana:block/hell_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enrich_with_katana:block/hell_furnace",
+      "y": 270
+    }
+  }
+}

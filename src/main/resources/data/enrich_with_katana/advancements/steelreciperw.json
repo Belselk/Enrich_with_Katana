@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "steelreciperw": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enrich_with_katana:steelingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "enrich_with_katana:steelrecipe_1",
+      "enrich_with_katana:steelrecipe_2",
+      "enrich_with_katana:steelrecipe_3",
+      "enrich_with_katana:steellanternrecipe",
+      "enrich_with_katana:steelfishingrodrecipe",
+      "enrich_with_katana:steelrecipe_4",
+      "enrich_with_katana:steelrecipe_5",
+      "enrich_with_katana:steel_hammerrecipe",
+      "enrich_with_katana:repareanvilrecipe_1",
+      "enrich_with_katana:repareanvilrecipe_2",
+      "enrich_with_katana:remakesaddlerecipe",
+      "enrich_with_katana:alloy_furnacerecipe",
+      "enrich_with_katana:steel_shearsrecipe"
+    ]
+  }
+}

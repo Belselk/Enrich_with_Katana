@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enrich_with_katana:blocks/beryllium_copper_block",
+    "up": "enrich_with_katana:blocks/beryllium_copper_block",
+    "north": "enrich_with_katana:blocks/beryllium_copper_block",
+    "east": "enrich_with_katana:blocks/beryllium_copper_block",
+    "south": "enrich_with_katana:blocks/beryllium_copper_block",
+    "west": "enrich_with_katana:blocks/beryllium_copper_block",
+    "particle": "enrich_with_katana:blocks/beryllium_copper_block"
+  },
+  "render_type": "solid"
+}

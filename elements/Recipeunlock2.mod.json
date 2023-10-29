@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Trajectory of Civilization",
+    "achievementDescription": "Using recipe paper",
+    "achievementIcon": {
+      "value": "CUSTOM:Recipepaper"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "Bauxiterecipe1",
+      "Steelrecipe1",
+      "Remakebucketrecipe",
+      "Recipepaperrecipe",
+      "Activatebandagerecipe",
+      "AlloyFurnacerecipe",
+      "Remakepowerdrailrecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Recipeunlock1"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"50\" y=\"28\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Recipepaper</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

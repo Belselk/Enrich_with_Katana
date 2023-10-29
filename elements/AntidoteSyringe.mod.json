@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "antidote_syringe",
+    "customModelName": "Tool",
+    "name": "Antidote Syringe",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Enrichwithkatana"
+    },
+    "stackSize": 1,
+    "enchantability": 1,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 32,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "AntidoteSyringegui",
+    "inventorySize": 2,
+    "inventoryStackSize": 4,
+    "onRightClickedInAir": {
+      "name": "AS_use_pr"
+    },
+    "onItemInInventoryTick": {
+      "name": "AS_tick_pr"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

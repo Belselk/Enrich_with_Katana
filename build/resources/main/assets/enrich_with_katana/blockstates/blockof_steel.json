@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "enrich_with_katana:block/blockof_steel"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "1": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "2": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "3": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "4": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "5": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "6": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "7": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "8": {
+      "item": "enrich_with_katana:aluminumingot"
+    }
+  },
+  "result": {
+    "item": "enrich_with_katana:blockofaluminum",
+    "count": 1
+  }
+}

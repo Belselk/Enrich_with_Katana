@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "enrich_with_katana:recipepaper"
+    },
+    "title": {
+      "translate": "advancements.recipeunlock_2.title"
+    },
+    "description": {
+      "translate": "advancements.recipeunlock_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "recipeunlock_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "enrich_with_katana:recipepaper"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "enrich_with_katana:bauxiterecipe_1",
+      "enrich_with_katana:steelrecipe_1",
+      "enrich_with_katana:remakebucketrecipe",
+      "enrich_with_katana:recipepaperrecipe",
+      "enrich_with_katana:activatebandagerecipe",
+      "enrich_with_katana:alloy_furnacerecipe",
+      "enrich_with_katana:remakepowerdrailrecipe"
+    ]
+  },
+  "parent": "enrich_with_katana:recipeunlock_1"
+}

@@ -1,0 +1,54 @@
+{
+  "_fv": 43,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "recallpotion",
+    "customModelName": "Normal",
+    "name": "Recall Potion",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Enrichwithkatana"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 60,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§c§l焚き火に帰還することができる",
+      "§c§l Can return to the campfire"
+    ],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "RP_grow_pr"
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onStoppedUsing": {
+      "name": "RP_set_pr"
+    },
+    "onFinishUsingItem": {
+      "name": "RP_used_pr"
+    },
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}

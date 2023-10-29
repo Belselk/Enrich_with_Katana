@@ -1,0 +1,7 @@
+{
+  "parent": "katana_plus_mod:custom/crossbow",
+  "textures": {
+    "0": "katana_plus_mod:blocks/crossbow_tex",
+    "particle": "katana_plus_mod:items/crossbow"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "enrich_with_katana:items/steelfishingrod"
+  }
+}

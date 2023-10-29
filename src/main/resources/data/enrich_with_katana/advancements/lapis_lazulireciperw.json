@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "lapis_lazulireciperw": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "enrich_with_katana:recall_potionrecipe",
+      "enrich_with_katana:lifecrystalrecipe"
+    ]
+  },
+  "parent": "enrich_with_katana:recipeunlock_1"
+}

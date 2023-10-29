@@ -1,0 +1,8 @@
+{
+  "parent": "enrich_with_katana:custom/lightair",
+  "textures": {
+    "all": "enrich_with_katana:blocks/lightair",
+    "particle": "enrich_with_katana:blocks/lightair"
+  },
+  "render_type": "translucent"
+}

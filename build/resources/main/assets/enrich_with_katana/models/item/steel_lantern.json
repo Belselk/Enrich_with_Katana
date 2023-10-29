@@ -1,0 +1,7 @@
+{
+  "parent": "enrich_with_katana:custom/steel_lantern",
+  "textures": {
+    "0": "enrich_with_katana:blocks/la",
+    "particle": "enrich_with_katana:items/la"
+  }
+}

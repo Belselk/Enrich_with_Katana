@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "reinforce_katana",
+    "customModelName": "katana:default",
+    "name": "Reinforced Katana",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Enrichwithkatana"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 2.0,
+    "enchantability": 16,
+    "damageVsEntity": 4.5,
+    "usageCount": 600,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BerylliumCopper"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SK_skill_pr"
+    },
+    "onEntityHitWith": {
+      "name": "SK_atk_pr"
+    },
+    "onEntitySwing": {
+      "name": "SK_swing_pr"
+    }
+  }
+}

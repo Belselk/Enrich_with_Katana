@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enrich_with_katana:blocks/af_sidev2",
+    "up": "enrich_with_katana:blocks/af_sidev2",
+    "north": "enrich_with_katana:blocks/af_front",
+    "east": "enrich_with_katana:blocks/af_sidev2",
+    "south": "enrich_with_katana:blocks/af_sidev2",
+    "west": "enrich_with_katana:blocks/af_sidev2",
+    "particle": "enrich_with_katana:blocks/af_sidev2"
+  },
+  "render_type": "solid"
+}

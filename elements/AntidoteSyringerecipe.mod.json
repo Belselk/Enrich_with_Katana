@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BerylliumCopper"
+      },
+      {
+        "value": "CUSTOM:Steelingot"
+      },
+      {
+        "value": "CUSTOM:BerylliumCopper"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "CUSTOM:Steelingot"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "CUSTOM:BerylliumCopper"
+      },
+      {
+        "value": "CUSTOM:Aluminumingot"
+      },
+      {
+        "value": "CUSTOM:BerylliumCopper"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AntidoteSyringe"
+    },
+    "name": "antidote_syringerecipe",
+    "namespace": "mod"
+  }
+}

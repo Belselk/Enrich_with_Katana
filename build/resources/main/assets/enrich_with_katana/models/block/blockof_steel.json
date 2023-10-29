@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enrich_with_katana:blocks/steel_block",
+    "up": "enrich_with_katana:blocks/steel_block",
+    "north": "enrich_with_katana:blocks/steel_block",
+    "east": "enrich_with_katana:blocks/steel_block",
+    "south": "enrich_with_katana:blocks/steel_block",
+    "west": "enrich_with_katana:blocks/steel_block",
+    "particle": "enrich_with_katana:blocks/steel_block"
+  },
+  "render_type": "solid"
+}

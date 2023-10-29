@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "iron_katana",
+    "customModelName": "katana:default",
+    "name": "Steel Katana",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Enrichwithkatana"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 18,
+    "damageVsEntity": 4.5,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Steelingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SK_skill_pr"
+    },
+    "onEntityHitWith": {
+      "name": "SK_atk_pr"
+    },
+    "onEntitySwing": {
+      "name": "SK_swing_pr"
+    }
+  }
+}

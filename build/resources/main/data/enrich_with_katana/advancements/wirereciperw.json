@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "wirereciperw": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enrich_with_katana:wire"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "enrich_with_katana:wirerecipe",
+      "enrich_with_katana:chainmailrecipe_1",
+      "enrich_with_katana:chainmailrecipe_2",
+      "enrich_with_katana:chainmailrecipe_3",
+      "enrich_with_katana:chainmailrecipe_4",
+      "enrich_with_katana:wirechainrecipe"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:AlloyPowderberylliumcopper"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:BerylliumCopper"
+    },
+    "name": "berylliumcopperrecipe_3",
+    "namespace": "mod"
+  }
+}

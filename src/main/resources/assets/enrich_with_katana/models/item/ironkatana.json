@@ -1,0 +1,7 @@
+{
+  "parent": "katana_plus_mod:custom/katana",
+  "textures": {
+    "4": "katana_plus_mod:blocks/katana_texsture0",
+    "particle": "katana_plus_mod:items/iron_katana"
+  }
+}

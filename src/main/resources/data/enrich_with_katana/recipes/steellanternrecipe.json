@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "1": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "2": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "4": {
+      "item": "minecraft:torch"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "6": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "7": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "8": {
+      "item": "enrich_with_katana:steelingot"
+    }
+  },
+  "result": {
+    "item": "enrich_with_katana:steel_lantern",
+    "count": 1
+  }
+}

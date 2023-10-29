@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "1": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "2": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "3": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "4": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "5": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "6": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "7": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "8": {
+      "item": "enrich_with_katana:beryllium_copper"
+    }
+  },
+  "result": {
+    "item": "enrich_with_katana:blockof_berylliumcopper",
+    "count": 1
+  }
+}

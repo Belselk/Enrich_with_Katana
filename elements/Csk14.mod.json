@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "csk14",
+    "customModelName": "Normal",
+    "name": "CSK-14",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Enrichwithkatana"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 22,
+    "damageVsEntity": 1.0,
+    "usageCount": 1014,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BerylliumCopper"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CSK_atk_pr"
+    }
+  }
+}

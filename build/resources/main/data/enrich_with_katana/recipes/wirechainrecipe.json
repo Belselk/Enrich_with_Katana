@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "enrich_with_katana:wire"
+    },
+    "2": {
+      "item": "enrich_with_katana:wire"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "enrich_with_katana:wire"
+    },
+    "8": {
+      "item": "enrich_with_katana:wire"
+    }
+  },
+  "result": {
+    "item": "minecraft:chain",
+    "count": 8
+  }
+}

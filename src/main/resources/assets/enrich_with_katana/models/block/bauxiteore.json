@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enrich_with_katana:blocks/bauxsite",
+    "up": "enrich_with_katana:blocks/bauxsite",
+    "north": "enrich_with_katana:blocks/bauxsite",
+    "east": "enrich_with_katana:blocks/bauxsite",
+    "south": "enrich_with_katana:blocks/bauxsite",
+    "west": "enrich_with_katana:blocks/bauxsite",
+    "particle": "enrich_with_katana:blocks/bauxsite"
+  },
+  "render_type": "solid"
+}

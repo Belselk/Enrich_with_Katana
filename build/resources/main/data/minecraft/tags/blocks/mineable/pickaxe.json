@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "enrich_with_katana:bauxiteore",
+    "enrich_with_katana:blockofaluminum",
+    "enrich_with_katana:blockof_steel",
+    "enrich_with_katana:blockof_berylliumcopper",
+    "enrich_with_katana:alloy_furnace",
+    "enrich_with_katana:hell_furnace"
+  ]
+}

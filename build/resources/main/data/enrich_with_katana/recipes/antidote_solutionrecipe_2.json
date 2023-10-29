@@ -1,0 +1,19 @@
+{
+  "group": "antidotesolutionrecipe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enrich_with_katana:empty_antidote_vial"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": {
+    "item": "enrich_with_katana:antidote_solution",
+    "count": 1
+  }
+}

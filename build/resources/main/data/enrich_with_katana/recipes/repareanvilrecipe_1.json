@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "1": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "2": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "4": {
+      "item": "minecraft:chipped_anvil"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+    "count": 1
+  }
+}

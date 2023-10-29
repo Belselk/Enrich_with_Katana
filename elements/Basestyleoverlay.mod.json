@@ -1,0 +1,42 @@
+{
+  "_fv": 43,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "style_f.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "Base_style_overlay_f_pr"
+          },
+          "x": 2,
+          "y": 219
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "style_t.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "Base_style_overlay_t_pr"
+          },
+          "x": 2,
+          "y": 219
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

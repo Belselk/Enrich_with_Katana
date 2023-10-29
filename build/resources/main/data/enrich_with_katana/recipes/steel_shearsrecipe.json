@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "4": {
+      "item": "minecraft:shears"
+    },
+    "5": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "6": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "enrich_with_katana:steel_shears",
+    "count": 1
+  }
+}

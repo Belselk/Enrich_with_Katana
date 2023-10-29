@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    {
+      "item": "enrich_with_katana:steelingot"
+    }
+  ],
+  "result": {
+    "item": "enrich_with_katana:csk_14",
+    "count": 1
+  }
+}

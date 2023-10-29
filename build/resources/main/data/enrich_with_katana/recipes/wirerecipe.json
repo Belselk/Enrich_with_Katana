@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "3": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "7": {
+      "item": "minecraft:string"
+    },
+    "8": {
+      "item": "enrich_with_katana:aluminumingot"
+    }
+  },
+  "result": {
+    "item": "enrich_with_katana:wire",
+    "count": 8
+  }
+}

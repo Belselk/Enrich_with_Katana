@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "enrich_with_katana:alloy_powdersteel"
+  },
+  "result": "enrich_with_katana:steelingot"
+}

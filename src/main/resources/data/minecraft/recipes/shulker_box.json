@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:shulker_shell"
+    },
+    "4": {
+      "item": "minecraft:ender_chest"
+    },
+    "6": {
+      "item": "minecraft:shulker_shell"
+    },
+    "7": {
+      "item": "minecraft:nether_star"
+    },
+    "8": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "minecraft:shulker_box",
+    "count": 1
+  }
+}

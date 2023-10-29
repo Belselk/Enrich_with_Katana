@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enrich_with_katana:blocks/aluminum_ore_block",
+    "up": "enrich_with_katana:blocks/aluminum_ore_block",
+    "north": "enrich_with_katana:blocks/aluminum_ore_block",
+    "east": "enrich_with_katana:blocks/aluminum_ore_block",
+    "south": "enrich_with_katana:blocks/aluminum_ore_block",
+    "west": "enrich_with_katana:blocks/aluminum_ore_block",
+    "particle": "enrich_with_katana:blocks/aluminum_ore_block"
+  },
+  "render_type": "solid"
+}

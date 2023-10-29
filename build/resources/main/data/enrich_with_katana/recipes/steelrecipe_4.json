@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enrich_with_katana:blockof_steel"
+    }
+  ],
+  "result": {
+    "item": "enrich_with_katana:steelingot",
+    "count": 9
+  }
+}

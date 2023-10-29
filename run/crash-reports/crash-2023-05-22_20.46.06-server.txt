@@ -1,0 +1,101 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2023-05-22 20:46:06
+Description: Exception in server tick loop
+
+java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6
+	at java.util.Arrays$ArrayList.get(Arrays.java:4165) ~[?:?] {}
+	at net.minecraft.core.NonNullList.get(NonNullList.java:43) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading}
+	at net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.getItem(RandomizableContainerBlockEntity.java:97) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading}
+	at net.minecraftforge.items.wrapper.InvWrapper.getStackInSlot(InvWrapper.java:53) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?] {re:classloading}
+	at net.minecraftforge.items.SlotItemHandler.getItem(SlotItemHandler.java:40) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?] {re:classloading}
+	at net.minecraft.world.inventory.AbstractContainerMenu.broadcastChanges(AbstractContainerMenu.java:168) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading}
+	at net.minecraft.world.inventory.AbstractContainerMenu.addSlotListener(AbstractContainerMenu.java:123) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerPlayer.initMenu(ServerPlayer.java:382) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.network.NetworkHooks.openScreen(NetworkHooks.java:207) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?] {re:classloading}
+	at net.minecraftforge.network.NetworkHooks.openScreen(NetworkHooks.java:170) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?] {re:classloading}
+	at katana.procedures.FRS_open_prProcedure.lambda$execute$0(FRS_open_prProcedure.java:34) ~[%23193!/:?] {re:classloading}
+	at katana.EnrichWithKatanaMod.lambda$tick$2(EnrichWithKatanaMod.java:95) ~[%23193!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {}
+	at katana.EnrichWithKatanaMod.tick(EnrichWithKatanaMod.java:95) ~[%23193!/:?] {re:classloading}
+	at katana.__EnrichWithKatanaMod_tick_ServerTickEvent.invoke(.dynamic) ~[%23193!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onPostServerTick(ForgeEventFactory.java:840) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:843) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 401202944 bytes (382 MiB) / 1528823808 bytes (1458 MiB) up to 4253024256 bytes (4056 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz
+	Identifier: Intel64 Family 6 Model 167 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce GTX 1650
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f82
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.1694
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 25949.32
+	Virtual memory used (MB): 22937.77
+	Swap memory total (MB): 9728.00
+	Swap memory used (MB): 975.89
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/191, l='ServerLevel[新規ワールド]', x=-3.23, y=75.00, z=-65.58]]
+	Data Packs: vanilla, mod:forge, mod:enrich_with_katana
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.|Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |43.2.0              |DONE      |Manifest: NOSIGNATURE
+		main                                              |Enrich with katana            |enrich_with_katana            |0.0.2               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 09f3c16d-517c-4882-91cb-1ba7180f07b5
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.0

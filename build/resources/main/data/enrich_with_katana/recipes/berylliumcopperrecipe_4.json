@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enrich_with_katana:blockof_berylliumcopper"
+    }
+  ],
+  "result": {
+    "item": "enrich_with_katana:beryllium_copper",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "style_change": {
+    "sounds": [
+      {
+        "name": "enrich_with_katana:style_change",
+        "stream": false
+      }
+    ]
+  },
+  "no_se": {
+    "sounds": [
+      {
+        "name": "enrich_with_katana:no_se",
+        "stream": false
+      }
+    ]
+  }
+}

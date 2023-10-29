@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "enrich_with_katana:aluminumingot"
+    },
+    "title": {
+      "translate": "advancements.recipeunlock_1.title"
+    },
+    "description": {
+      "translate": "advancements.recipeunlock_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "recipeunlock_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enrich_with_katana:aluminumingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "enrich_with_katana:recipepaperrecipe",
+      "enrich_with_katana:bauxiterecipe_1",
+      "enrich_with_katana:bauxiterecipe_2",
+      "enrich_with_katana:bauxiterecipe_3",
+      "enrich_with_katana:bauxiterecipe_4",
+      "enrich_with_katana:remakebucketrecipe",
+      "enrich_with_katana:remakelanternrecipe",
+      "enrich_with_katana:remakepowerdrailrecipe"
+    ]
+  },
+  "parent": "minecraft:story/mine_stone"
+}

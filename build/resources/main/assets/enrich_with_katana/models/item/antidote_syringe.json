@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "enrich_with_katana:items/antidote_syringe"
+  }
+}

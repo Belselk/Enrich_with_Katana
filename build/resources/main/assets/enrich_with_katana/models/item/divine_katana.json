@@ -1,0 +1,7 @@
+{
+  "parent": "enrich_with_katana:custom/divine",
+  "textures": {
+    "0": "enrich_with_katana:blocks/textured",
+    "particle": "enrich_with_katana:items/holykatana"
+  }
+}
