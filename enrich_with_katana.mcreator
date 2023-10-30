@@ -3436,7 +3436,7 @@
     "version": "0.0.2",
     "description": "刀と優れたツールで快適な生活を ",
     "author": "Chara",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/Chara-mc/Enrich_with_Katana",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
