@@ -28,6 +28,7 @@ import katana.item.RecipepaperItem;
 import katana.item.RecallPotionItem;
 import katana.item.RawBauxiteItem;
 import katana.item.LifecrystalItem;
+import katana.item.GleamingsteelarmorItem;
 import katana.item.EmptyAntidoteVialItem;
 import katana.item.DivineTamahaganeItem;
 import katana.item.DivineKatanaItem;
@@ -77,6 +78,10 @@ public class EnrichWithKatanaModItems {
 	public static final RegistryObject<Item> SIMPLE_STICK = REGISTRY.register("simple_stick", () -> new SimpleStickItem());
 	public static final RegistryObject<Item> TRAIL_STICK = REGISTRY.register("trail_stick", () -> new TrailStickItem());
 	public static final RegistryObject<Item> LIGHT_AIR = block(EnrichWithKatanaModBlocks.LIGHT_AIR, null);
+	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_HELMET = REGISTRY.register("gleamingsteelarmor_helmet", () -> new GleamingsteelarmorItem.Helmet());
+	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_CHESTPLATE = REGISTRY.register("gleamingsteelarmor_chestplate", () -> new GleamingsteelarmorItem.Chestplate());
+	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_LEGGINGS = REGISTRY.register("gleamingsteelarmor_leggings", () -> new GleamingsteelarmorItem.Leggings());
+	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_BOOTS = REGISTRY.register("gleamingsteelarmor_boots", () -> new GleamingsteelarmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

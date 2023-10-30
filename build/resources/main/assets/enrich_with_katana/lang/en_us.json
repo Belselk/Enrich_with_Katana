@@ -56,8 +56,11 @@
   "advancements.berylliumcopperunlockrw.descr": "n",
   "gui.enrich_with_katana.basestyleoverlay.label_su": "速",
   "block.enrich_with_katana.bauxiteore": "Bauxiteore",
+  "item.enrich_with_katana.gleamingsteelarmor_chestplate": "gleaming_steel_chestplate",
   "item.enrich_with_katana.recipepaper": "§oRecipe paper",
   "advancements.steelreciperw.descr": "n",
+  "item.enrich_with_katana.gleamingsteelarmor_helmet": "gleaming_steel_helmet",
+  "item.enrich_with_katana.gleamingsteelarmor_boots": "gleaming_steel_boots",
   "effect.enrich_with_katana.beryllium_poison": "Beryllium Poison",
   "item.enrich_with_katana.beryllium_copper": "Beryllium Copper",
   "advancements.antidote_syringerw.title": "Antidote Syringerw",
@@ -76,5 +79,6 @@
   "item.enrich_with_katana.activatebandage": "Activatebandage",
   "block.enrich_with_katana.light_air": "Light Air",
   "gui.enrich_with_katana.antidote_syringegui.label_antidote_syringe": "Antidote Syringe",
+  "item.enrich_with_katana.gleamingsteelarmor_leggings": "gleaming_steel_leggings",
   "item.enrich_with_katana.tamahagane": "Tamahagane"
 }

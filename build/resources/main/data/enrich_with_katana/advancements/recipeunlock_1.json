@@ -42,7 +42,7 @@
       "enrich_with_katana:bauxiterecipe_4",
       "enrich_with_katana:remakebucketrecipe",
       "enrich_with_katana:remakelanternrecipe",
-      "enrich_with_katana:remakepowerdrailrecipe"
+      "enrich_with_katana:deleted_mod_element"
     ]
   },
   "parent": "minecraft:story/mine_stone"

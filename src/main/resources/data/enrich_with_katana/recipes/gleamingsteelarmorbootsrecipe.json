@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "2": {
+      "item": "enrich_with_katana:steelingot"
+    },
+    "3": {
+      "item": "enrich_with_katana:beryllium_copper"
+    },
+    "5": {
+      "item": "enrich_with_katana:beryllium_copper"
+    }
+  },
+  "result": {
+    "item": "enrich_with_katana:gleamingsteelarmor_boots",
+    "count": 1
+  }
+}

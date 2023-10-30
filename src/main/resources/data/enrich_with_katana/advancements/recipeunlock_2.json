@@ -35,7 +35,7 @@
       "enrich_with_katana:recipepaperrecipe",
       "enrich_with_katana:activatebandagerecipe",
       "enrich_with_katana:alloy_furnacerecipe",
-      "enrich_with_katana:remakepowerdrailrecipe"
+      "enrich_with_katana:deleted_mod_element"
     ]
   },
   "parent": "enrich_with_katana:recipeunlock_1"

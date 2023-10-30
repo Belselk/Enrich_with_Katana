@@ -7,28 +7,28 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:amethyst_shard"
     },
     "1": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:emerald"
     },
     "2": {
       "item": "minecraft:quartz"
     },
     "3": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:emerald"
     },
     "4": {
-      "tag": "minecraft:coals"
+      "item": "minecraft:copper_ingot"
     },
     "5": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:emerald"
     },
     "6": {
-      "item": "minecraft:amethyst_shard"
+      "item": "minecraft:quartz"
     },
     "7": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:emerald"
     },
     "8": {
       "item": "minecraft:amethyst_shard"
@@ -36,6 +36,6 @@
   },
   "result": {
     "item": "enrich_with_katana:alloy_powderberylliumcopper",
-    "count": 2
+    "count": 1
   }
 }

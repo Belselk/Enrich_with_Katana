@@ -1,13 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
       "item": "enrich_with_katana:beryllium_copper"
     },
-    {
+    "2": {
       "item": "enrich_with_katana:steelingot"
     }
-  ],
+  },
   "result": {
     "item": "enrich_with_katana:csk_14",
     "count": 1

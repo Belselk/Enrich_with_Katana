@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "alloy_powder",
+    "texture": "alloy_powder_bc",
     "customModelName": "Normal",
     "name": "Alloy Powder berylliumcopper",
     "rarity": "COMMON",

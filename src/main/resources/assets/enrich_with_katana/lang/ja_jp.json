@@ -7,7 +7,7 @@
   "key.enrich_with_katana.stylechange": "Style change",
   "item.enrich_with_katana.divine_tamahagane": "神聖な玉鋼",
   "block.enrich_with_katana.blockof_steel": "鋼ブロック",
-  "gui.enrich_with_katana.antidote_syringegui.label_empty_antidote_vial": "使用済みの容器",
+  "gui.enrich_with_katana.antidote_syringegui.label_empty_antidote_vial": "空の容器",
   "itemGroup.tabenrichwithkatana": "Enrich with Katana",
   "advancements.recipeunlock_1.descr": "アルミニウムを手に入れた",
   "block.enrich_with_katana.blockofaluminum": "アルミニウムブロック",
@@ -56,8 +56,11 @@
   "advancements.berylliumcopperunlockrw.descr": "n",
   "gui.enrich_with_katana.basestyleoverlay.label_su": "速",
   "block.enrich_with_katana.bauxiteore": "ボーキサイト鉱石",
+  "item.enrich_with_katana.gleamingsteelarmor_chestplate": "鋼煌のチェストプレート",
   "item.enrich_with_katana.recipepaper": "レシピペーパー",
   "advancements.steelreciperw.descr": "n",
+  "item.enrich_with_katana.gleamingsteelarmor_helmet": "鋼煌のヘルメット",
+  "item.enrich_with_katana.gleamingsteelarmor_boots": "鋼煌のブーツ",
   "effect.enrich_with_katana.beryllium_poison": "ベリリウム毒",
   "item.enrich_with_katana.beryllium_copper": "ベリリウム銅",
   "advancements.antidote_syringerw.title": "Antidote Syringerw",
@@ -76,5 +79,6 @@
   "item.enrich_with_katana.activatebandage": "活性バンドエイド",
   "gui.enrich_with_katana.antidote_syringegui.label_antidote_syringe": "解毒注射器",
   "block.enrich_with_katana.light_air": "光源",
+  "item.enrich_with_katana.gleamingsteelarmor_leggings": "鋼煌のレギンス",
   "item.enrich_with_katana.tamahagane": "玉鋼"
 }

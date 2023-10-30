@@ -9,12 +9,12 @@
       "registry_name": "bauxiteore",
       "metadata": {
         "files": [
-          "src/main/java/katana/block/BauxiteoreBlock.java",
           "src/main/java/katana/world/features/ores/BauxiteoreFeature.java",
-          "src/main/resources/assets/enrich_with_katana/models/item/bauxiteore.json",
-          "src/main/resources/assets/enrich_with_katana/blockstates/bauxiteore.json",
+          "src/main/resources/assets/enrich_with_katana/models/block/bauxiteore.json",
           "src/main/resources/data/enrich_with_katana/forge/biome_modifier/bauxiteore_biome_modifier.json",
-          "src/main/resources/assets/enrich_with_katana/models/block/bauxiteore.json"
+          "src/main/resources/assets/enrich_with_katana/models/item/bauxiteore.json",
+          "src/main/java/katana/block/BauxiteoreBlock.java",
+          "src/main/resources/assets/enrich_with_katana/blockstates/bauxiteore.json"
         ]
       },
       "path": "~/Material/Bauxite"
@@ -58,9 +58,9 @@
       "registry_name": "blockofaluminum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/blockstates/blockofaluminum.json",
-          "src/main/java/katana/block/BlockofaluminumBlock.java",
           "src/main/resources/assets/enrich_with_katana/models/item/blockofaluminum.json",
+          "src/main/java/katana/block/BlockofaluminumBlock.java",
+          "src/main/resources/assets/enrich_with_katana/blockstates/blockofaluminum.json",
           "src/main/resources/assets/enrich_with_katana/models/block/blockofaluminum.json"
         ]
       },
@@ -131,8 +131,8 @@
       "registry_name": "wire",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/models/item/wire.json",
-          "src/main/java/katana/item/WireItem.java"
+          "src/main/java/katana/item/WireItem.java",
+          "src/main/resources/assets/enrich_with_katana/models/item/wire.json"
         ]
       },
       "path": "~/Material/Bauxite/Wire"
@@ -231,10 +231,10 @@
       "registry_name": "blockof_steel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/blockstates/blockof_steel.json",
-          "src/main/resources/assets/enrich_with_katana/models/item/blockof_steel.json",
           "src/main/resources/assets/enrich_with_katana/models/block/blockof_steel.json",
-          "src/main/java/katana/block/BlockofSteelBlock.java"
+          "src/main/java/katana/block/BlockofSteelBlock.java",
+          "src/main/resources/assets/enrich_with_katana/blockstates/blockof_steel.json",
+          "src/main/resources/assets/enrich_with_katana/models/item/blockof_steel.json"
         ]
       },
       "path": "~/Material/Steel"
@@ -305,8 +305,8 @@
       "registry_name": "steel_katana",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/models/item/steel_katana.json",
-          "src/main/java/katana/item/SteelKatanaItem.java"
+          "src/main/java/katana/item/SteelKatanaItem.java",
+          "src/main/resources/assets/enrich_with_katana/models/item/steel_katana.json"
         ]
       },
       "path": "~/Other/Katana/Steel Katana"
@@ -419,10 +419,10 @@
       "registry_name": "light_air",
       "metadata": {
         "files": [
-          "src/main/java/katana/block/LightAirBlock.java",
-          "src/main/resources/assets/enrich_with_katana/models/item/light_air.json",
           "src/main/java/katana/block/entity/LightAirBlockEntity.java",
           "src/main/resources/assets/enrich_with_katana/models/block/light_air.json",
+          "src/main/java/katana/block/LightAirBlock.java",
+          "src/main/resources/assets/enrich_with_katana/models/item/light_air.json",
           "src/main/resources/assets/enrich_with_katana/blockstates/light_air.json"
         ]
       },
@@ -635,8 +635,8 @@
       "registry_name": "lifecrystal",
       "metadata": {
         "files": [
-          "src/main/java/katana/item/LifecrystalItem.java",
-          "src/main/resources/assets/enrich_with_katana/models/item/lifecrystal.json"
+          "src/main/resources/assets/enrich_with_katana/models/item/lifecrystal.json",
+          "src/main/java/katana/item/LifecrystalItem.java"
         ]
       },
       "path": "~/Other/Using item/Life crystal"
@@ -649,6 +649,9 @@
       "locked_code": false,
       "registry_name": "base_respawn_pr",
       "metadata": {
+        "files": [
+          "src/main/java/katana/procedures/BASE_respawn_prProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -667,8 +670,8 @@
       "registry_name": "activatebandage",
       "metadata": {
         "files": [
-          "src/main/java/katana/item/ActivatebandageItem.java",
-          "src/main/resources/assets/enrich_with_katana/models/item/activatebandage.json"
+          "src/main/resources/assets/enrich_with_katana/models/item/activatebandage.json",
+          "src/main/java/katana/item/ActivatebandageItem.java"
         ]
       },
       "path": "~/Other/Using item/Activate bandage"
@@ -756,8 +759,8 @@
       "registry_name": "recipepaper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/models/item/recipepaper.json",
-          "src/main/java/katana/item/RecipepaperItem.java"
+          "src/main/java/katana/item/RecipepaperItem.java",
+          "src/main/resources/assets/enrich_with_katana/models/item/recipepaper.json"
         ]
       },
       "path": "~/Base/Recipe book"
@@ -973,10 +976,10 @@
       "registry_name": "blockof_berylliumcopper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/blockstates/blockof_berylliumcopper.json",
-          "src/main/resources/assets/enrich_with_katana/models/block/blockof_berylliumcopper.json",
           "src/main/resources/assets/enrich_with_katana/models/item/blockof_berylliumcopper.json",
-          "src/main/java/katana/block/BlockofBerylliumcopperBlock.java"
+          "src/main/java/katana/block/BlockofBerylliumcopperBlock.java",
+          "src/main/resources/assets/enrich_with_katana/blockstates/blockof_berylliumcopper.json",
+          "src/main/resources/assets/enrich_with_katana/models/block/blockof_berylliumcopper.json"
         ]
       },
       "path": "~/Material/Beryllium Copper"
@@ -1032,8 +1035,8 @@
       "registry_name": "csk_14",
       "metadata": {
         "files": [
-          "src/main/java/katana/item/Csk14Item.java",
-          "src/main/resources/assets/enrich_with_katana/models/item/csk_14.json"
+          "src/main/resources/assets/enrich_with_katana/models/item/csk_14.json",
+          "src/main/java/katana/item/Csk14Item.java"
         ]
       },
       "path": "~/Material/Beryllium Copper/BC_CSK-14"
@@ -1149,8 +1152,8 @@
       "registry_name": "alloy_powdersteel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/models/item/alloy_powdersteel.json",
-          "src/main/java/katana/item/AlloyPowdersteelItem.java"
+          "src/main/java/katana/item/AlloyPowdersteelItem.java",
+          "src/main/resources/assets/enrich_with_katana/models/item/alloy_powdersteel.json"
         ]
       },
       "path": "~/Material/Steel"
@@ -1192,8 +1195,8 @@
       "registry_name": "alloy_powderberylliumcopper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/models/item/alloy_powderberylliumcopper.json",
-          "src/main/java/katana/item/AlloyPowderberylliumcopperItem.java"
+          "src/main/java/katana/item/AlloyPowderberylliumcopperItem.java",
+          "src/main/resources/assets/enrich_with_katana/models/item/alloy_powderberylliumcopper.json"
         ]
       },
       "path": "~/Material/Beryllium Copper"
@@ -1235,11 +1238,11 @@
       "registry_name": "alloy_furnace",
       "metadata": {
         "files": [
+          "src/main/resources/assets/enrich_with_katana/blockstates/alloy_furnace.json",
+          "src/main/resources/assets/enrich_with_katana/models/item/alloy_furnace.json",
           "src/main/java/katana/block/entity/AlloyFurnaceBlockEntity.java",
           "src/main/resources/assets/enrich_with_katana/models/block/alloy_furnace.json",
-          "src/main/java/katana/block/AlloyFurnaceBlock.java",
-          "src/main/resources/assets/enrich_with_katana/blockstates/alloy_furnace.json",
-          "src/main/resources/assets/enrich_with_katana/models/item/alloy_furnace.json"
+          "src/main/java/katana/block/AlloyFurnaceBlock.java"
         ]
       },
       "path": "~/Base/Alloy Furnace"
@@ -1253,10 +1256,10 @@
       "registry_name": "alloy_furnacegui",
       "metadata": {
         "files": [
-          "src/main/java/katana/client/gui/AlloyFurnaceguiScreen.java",
-          "src/main/java/katana/world/inventory/AlloyFurnaceguiMenu.java",
+          "src/main/java/katana/network/AlloyFurnaceguiButtonMessage.java",
           "src/main/java/katana/network/AlloyFurnaceguiSlotMessage.java",
-          "src/main/java/katana/network/AlloyFurnaceguiButtonMessage.java"
+          "src/main/java/katana/client/gui/AlloyFurnaceguiScreen.java",
+          "src/main/java/katana/world/inventory/AlloyFurnaceguiMenu.java"
         ]
       },
       "path": "~/Base/Alloy Furnace"
@@ -1290,8 +1293,8 @@
       "registry_name": "steel_hammer",
       "metadata": {
         "files": [
-          "src/main/java/katana/item/SteelHammerItem.java",
-          "src/main/resources/assets/enrich_with_katana/models/item/steel_hammer.json"
+          "src/main/resources/assets/enrich_with_katana/models/item/steel_hammer.json",
+          "src/main/java/katana/item/SteelHammerItem.java"
         ]
       },
       "path": "~/Base/Alloy Furnace"
@@ -1345,20 +1348,6 @@
       "path": "~/Base/Alloy Furnace"
     },
     {
-      "name": "Remakepowerdrailrecipe",
-      "type": "recipe",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "remakepowerdrailrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/enrich_with_katana/recipes/remakepowerdrailrecipe.json"
-        ]
-      },
-      "path": "~/Base/Remake recipe"
-    },
-    {
       "name": "Wirereciperw",
       "type": "achievement",
       "sortid": 90,
@@ -1395,10 +1384,10 @@
       "registry_name": "hell_furnace",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/models/block/hell_furnace.json",
-          "src/main/java/katana/block/HellFurnaceBlock.java",
           "src/main/java/katana/block/entity/HellFurnaceBlockEntity.java",
           "src/main/resources/assets/enrich_with_katana/models/item/hell_furnace.json",
+          "src/main/resources/assets/enrich_with_katana/models/block/hell_furnace.json",
+          "src/main/java/katana/block/HellFurnaceBlock.java",
           "src/main/resources/assets/enrich_with_katana/blockstates/hell_furnace.json"
         ]
       },
@@ -1427,10 +1416,10 @@
       "registry_name": "hellfurnacegui",
       "metadata": {
         "files": [
-          "src/main/java/katana/network/HellfurnaceguiButtonMessage.java",
-          "src/main/java/katana/network/HellfurnaceguiSlotMessage.java",
           "src/main/java/katana/world/inventory/HellfurnaceguiMenu.java",
-          "src/main/java/katana/client/gui/HellfurnaceguiScreen.java"
+          "src/main/java/katana/client/gui/HellfurnaceguiScreen.java",
+          "src/main/java/katana/network/HellfurnaceguiButtonMessage.java",
+          "src/main/java/katana/network/HellfurnaceguiSlotMessage.java"
         ]
       },
       "path": "~/Base/Hell Furnace"
@@ -1925,8 +1914,8 @@
       "registry_name": "antidote_syringe",
       "metadata": {
         "files": [
-          "src/main/java/katana/item/inventory/AntidoteSyringeInventoryCapability.java",
           "src/main/java/katana/item/AntidoteSyringeItem.java",
+          "src/main/java/katana/item/inventory/AntidoteSyringeInventoryCapability.java",
           "src/main/resources/assets/enrich_with_katana/models/item/antidote_syringe.json"
         ]
       },
@@ -2070,8 +2059,8 @@
       "registry_name": "trail_stick",
       "metadata": {
         "files": [
-          "src/main/java/katana/item/TrailStickItem.java",
-          "src/main/resources/assets/enrich_with_katana/models/item/trail_stick.json"
+          "src/main/resources/assets/enrich_with_katana/models/item/trail_stick.json",
+          "src/main/java/katana/item/TrailStickItem.java"
         ]
       },
       "path": "~/Other/Using item/Trail Stick"
@@ -2220,9 +2209,9 @@
       "registry_name": "furnace_recipe_viewer",
       "metadata": {
         "files": [
+          "src/main/java/katana/network/FurnaceRecipeViewerButtonMessage.java",
           "src/main/java/katana/world/inventory/FurnaceRecipeViewerMenu.java",
-          "src/main/java/katana/client/gui/FurnaceRecipeViewerScreen.java",
-          "src/main/java/katana/network/FurnaceRecipeViewerButtonMessage.java"
+          "src/main/java/katana/client/gui/FurnaceRecipeViewerScreen.java"
         ]
       },
       "path": "~/Base/Furnace Recipe Viewer"
@@ -2446,8 +2435,8 @@
       "registry_name": "reinforced_katana",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enrich_with_katana/models/item/reinforced_katana.json",
-          "src/main/java/katana/item/ReinforcedKatanaItem.java"
+          "src/main/java/katana/item/ReinforcedKatanaItem.java",
+          "src/main/resources/assets/enrich_with_katana/models/item/reinforced_katana.json"
         ]
       },
       "path": "~/Other/Katana/Steel Katana/Reinforced katana"
@@ -2723,10 +2712,6 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "sourceentity",
             "type": "entity"
           }
@@ -2862,6 +2847,9 @@
       "locked_code": false,
       "registry_name": "base_style_change_pr",
       "metadata": {
+        "files": [
+          "src/main/java/katana/procedures/Base_style_change_prProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -3001,6 +2989,80 @@
         ]
       },
       "path": "~/Base/.Style"
+    },
+    {
+      "name": "Gleamingsteelarmor",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gleamingsteelarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enrich_with_katana/models/item/gleamingsteelarmor_helmet.json",
+          "src/main/resources/assets/enrich_with_katana/models/item/gleamingsteelarmor_boots.json",
+          "src/main/java/katana/item/GleamingsteelarmorItem.java",
+          "src/main/resources/assets/enrich_with_katana/models/item/gleamingsteelarmor_chestplate.json",
+          "src/main/resources/assets/enrich_with_katana/models/item/gleamingsteelarmor_leggings.json"
+        ]
+      },
+      "path": "~/Material/Beryllium Copper/BC_Gleaming Steel Armor"
+    },
+    {
+      "name": "Gleamingsteelarmorhelmetrecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gleamingsteelarmorhelmetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrich_with_katana/recipes/gleamingsteelarmorhelmetrecipe.json"
+        ]
+      },
+      "path": "~/Material/Beryllium Copper/BC_Gleaming Steel Armor"
+    },
+    {
+      "name": "Gleamingsteelarmorchestplaterecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gleamingsteelarmorchestplaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrich_with_katana/recipes/gleamingsteelarmorchestplaterecipe.json"
+        ]
+      },
+      "path": "~/Material/Beryllium Copper/BC_Gleaming Steel Armor"
+    },
+    {
+      "name": "Gleamingsteelarmorleggingsrecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gleamingsteelarmorleggingsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrich_with_katana/recipes/gleamingsteelarmorleggingsrecipe.json"
+        ]
+      },
+      "path": "~/Material/Beryllium Copper/BC_Gleaming Steel Armor"
+    },
+    {
+      "name": "Gleamingsteelarmorbootsrecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gleamingsteelarmorbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrich_with_katana/recipes/gleamingsteelarmorbootsrecipe.json"
+        ]
+      },
+      "path": "~/Material/Beryllium Copper/BC_Gleaming Steel Armor"
     }
   ],
   "variable_elements": [
@@ -3118,8 +3180,11 @@
       "advancements.berylliumcopperunlockrw.descr": "n",
       "gui.enrich_with_katana.basestyleoverlay.label_su": "速",
       "block.enrich_with_katana.bauxiteore": "Bauxiteore",
+      "item.enrich_with_katana.gleamingsteelarmor_chestplate": "gleaming_steel_chestplate",
       "item.enrich_with_katana.recipepaper": "§oRecipe paper",
       "advancements.steelreciperw.descr": "n",
+      "item.enrich_with_katana.gleamingsteelarmor_helmet": "gleaming_steel_helmet",
+      "item.enrich_with_katana.gleamingsteelarmor_boots": "gleaming_steel_boots",
       "effect.enrich_with_katana.beryllium_poison": "Beryllium Poison",
       "item.enrich_with_katana.beryllium_copper": "Beryllium Copper",
       "advancements.antidote_syringerw.title": "Antidote Syringerw",
@@ -3138,6 +3203,7 @@
       "item.enrich_with_katana.activatebandage": "Activatebandage",
       "block.enrich_with_katana.light_air": "Light Air",
       "gui.enrich_with_katana.antidote_syringegui.label_antidote_syringe": "Antidote Syringe",
+      "item.enrich_with_katana.gleamingsteelarmor_leggings": "gleaming_steel_leggings",
       "item.enrich_with_katana.tamahagane": "Tamahagane"
     },
     "ja_jp": {
@@ -3149,7 +3215,7 @@
       "key.enrich_with_katana.stylechange": "Style change",
       "item.enrich_with_katana.divine_tamahagane": "神聖な玉鋼",
       "block.enrich_with_katana.blockof_steel": "鋼ブロック",
-      "gui.enrich_with_katana.antidote_syringegui.label_empty_antidote_vial": "使用済みの容器",
+      "gui.enrich_with_katana.antidote_syringegui.label_empty_antidote_vial": "空の容器",
       "itemGroup.tabenrichwithkatana": "Enrich with Katana",
       "advancements.recipeunlock_1.descr": "アルミニウムを手に入れた",
       "block.enrich_with_katana.blockofaluminum": "アルミニウムブロック",
@@ -3198,8 +3264,11 @@
       "advancements.berylliumcopperunlockrw.descr": "n",
       "gui.enrich_with_katana.basestyleoverlay.label_su": "速",
       "block.enrich_with_katana.bauxiteore": "ボーキサイト鉱石",
+      "item.enrich_with_katana.gleamingsteelarmor_chestplate": "鋼煌のチェストプレート",
       "item.enrich_with_katana.recipepaper": "レシピペーパー",
       "advancements.steelreciperw.descr": "n",
+      "item.enrich_with_katana.gleamingsteelarmor_helmet": "鋼煌のヘルメット",
+      "item.enrich_with_katana.gleamingsteelarmor_boots": "鋼煌のブーツ",
       "effect.enrich_with_katana.beryllium_poison": "ベリリウム毒",
       "item.enrich_with_katana.beryllium_copper": "ベリリウム銅",
       "advancements.antidote_syringerw.title": "Antidote Syringerw",
@@ -3218,6 +3287,7 @@
       "item.enrich_with_katana.activatebandage": "活性バンドエイド",
       "gui.enrich_with_katana.antidote_syringegui.label_antidote_syringe": "解毒注射器",
       "block.enrich_with_katana.light_air": "光源",
+      "item.enrich_with_katana.gleamingsteelarmor_leggings": "鋼煌のレギンス",
       "item.enrich_with_katana.tamahagane": "玉鋼"
     }
   },
@@ -3300,6 +3370,10 @@
             "children": [
               {
                 "name": "BC_CSK-14",
+                "children": []
+              },
+              {
+                "name": "BC_Gleaming Steel Armor",
                 "children": []
               }
             ]
