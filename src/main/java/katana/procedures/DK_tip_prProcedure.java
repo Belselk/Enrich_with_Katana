@@ -33,6 +33,10 @@ public class DK_tip_prProcedure {
 		if (tooltip == null)
 			return;
 		if (itemstack.getItem() == EnrichWithKatanaModItems.DIVINE_KATANA.get()) {
+			tooltip.add(Component.literal(("\u00A77" + "\u525B\u5263\u8853\u306E\u3068\u304D\uFF1A")));
+			tooltip.add(Component.literal(("\u00A72" + "\u653B\u6483\u529B +8.3")));
+			tooltip.add(Component.literal(("\u00A72" + "\u653B\u6483\u901F\u5EA6 -1")));
+			tooltip.add(Component.literal(("\u00A72" + "\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\u8DDD\u96E2 +1")));
 			tooltip.add(Component.literal(("\u00A77" + "\u4ED8\u4E0E\u5C5E\u6027" + "\u00A76" + "\u8056")));
 			if (Screen.hasShiftDown()) {
 				tooltip.add(Component.literal(("\u00A77" + "\u7834\u9B54\u306E\u529B\u3092\u5E2F\u3073\u305F\u92ED\u3044\u5200")));

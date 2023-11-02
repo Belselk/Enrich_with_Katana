@@ -1,9 +1,6 @@
 
 package katana.item;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
@@ -16,7 +13,6 @@ import net.minecraft.network.chat.Component;
 
 import katana.procedures.RP_used_prProcedure;
 import katana.procedures.RP_set_prProcedure;
-import katana.procedures.RP_grow_prProcedure;
 
 import katana.init.EnrichWithKatanaModTabs;
 
@@ -37,12 +33,6 @@ public class RecallPotionItem extends Item {
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
 		return 60;
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return RP_grow_prProcedure.execute(itemstack);
 	}
 
 	@Override

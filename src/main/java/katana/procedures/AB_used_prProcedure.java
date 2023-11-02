@@ -23,9 +23,9 @@ public class AB_used_prProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < (entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) * 0.8
 				&& !(entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(EnrichWithKatanaModMobEffects.ACTIVATION.get()) : false)) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 6));
+				_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 10));
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-				_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.ACTIVATION.get(), 300, 0));
+				_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.ACTIVATION.get(), 460, 0));
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.eat")), SoundSource.PLAYERS, 1, 1);
@@ -38,7 +38,7 @@ public class AB_used_prProcedure {
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(itemstack.getItem(), 20);
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 10);
 		}
 	}
 }

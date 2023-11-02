@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 2,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,21 +15,6 @@
         "value": ""
       },
       {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.CARPET"
-      },
-      {
-        "value": "Items.SLIME_BALL"
-      },
-      {
-        "value": "Blocks.CARPET"
-      },
-      {
         "value": ""
       },
       {
@@ -37,6 +22,21 @@
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.PHANTOM_MEMBRANE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Blocks.WOOL"
       }
     ],
     "recipeReturnStack": {

@@ -69,7 +69,7 @@
     {
       "name": "Bauxiterecipe1",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxiterecipe_1",
@@ -83,7 +83,7 @@
     {
       "name": "Bauxiterecipe2",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxiterecipe_2",
@@ -97,7 +97,7 @@
     {
       "name": "Bauxiterecipe3",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxiterecipe_3",
@@ -111,7 +111,7 @@
     {
       "name": "Bauxiterecipe4",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxiterecipe_4",
@@ -140,7 +140,7 @@
     {
       "name": "Wirerecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wirerecipe",
@@ -154,7 +154,7 @@
     {
       "name": "Chainmailrecipe1",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chainmailrecipe_1",
@@ -168,7 +168,7 @@
     {
       "name": "Chainmailrecipe2",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chainmailrecipe_2",
@@ -182,7 +182,7 @@
     {
       "name": "Chainmailrecipe3",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chainmailrecipe_3",
@@ -196,7 +196,7 @@
     {
       "name": "Chainmailrecipe4",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chainmailrecipe_4",
@@ -242,7 +242,7 @@
     {
       "name": "Steelrecipe1",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steelrecipe_1",
@@ -256,7 +256,7 @@
     {
       "name": "Steelrecipe2",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steelrecipe_2",
@@ -270,7 +270,7 @@
     {
       "name": "Steelrecipe3",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steelrecipe_3",
@@ -314,7 +314,7 @@
     {
       "name": "SK_atk_pr",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sk_atk_pr",
@@ -358,7 +358,7 @@
     {
       "name": "SK_skill_pr",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sk_skill_pr",
@@ -398,7 +398,7 @@
     {
       "name": "SteelLantern",
       "type": "item",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_lantern",
@@ -413,7 +413,7 @@
     {
       "name": "LightAir",
       "type": "block",
-      "sortid": 47,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_air",
@@ -431,7 +431,7 @@
     {
       "name": "SL_have_pr",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sl_have_pr",
@@ -455,7 +455,7 @@
     {
       "name": "SL_LA_set_pr",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sl_la_set_pr",
@@ -487,7 +487,7 @@
     {
       "name": "SL_LA_update_pr",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sl_la_update_pr",
@@ -519,7 +519,7 @@
     {
       "name": "Bauxiteroottable",
       "type": "loottable",
-      "sortid": 51,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxiteroottable",
@@ -533,7 +533,7 @@
     {
       "name": "Remakebucketrecipe",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remakebucketrecipe",
@@ -547,7 +547,7 @@
     {
       "name": "Repareanvilrecipe1",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "repareanvilrecipe_1",
@@ -561,7 +561,7 @@
     {
       "name": "Repareanvilrecipe2",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "repareanvilrecipe_2",
@@ -575,7 +575,7 @@
     {
       "name": "Advancedarrowrecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "advancedarrowrecipe",
@@ -589,7 +589,7 @@
     {
       "name": "LC_used_pr",
       "type": "procedure",
-      "sortid": 56,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lc_used_pr",
@@ -629,7 +629,7 @@
     {
       "name": "Lifecrystal",
       "type": "item",
-      "sortid": 28,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lifecrystal",
@@ -644,7 +644,7 @@
     {
       "name": "BASE_respawn_pr",
       "type": "procedure",
-      "sortid": 57,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "base_respawn_pr",
@@ -664,7 +664,7 @@
     {
       "name": "Activatebandage",
       "type": "item",
-      "sortid": 27,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "activatebandage",
@@ -679,7 +679,7 @@
     {
       "name": "AB_used_pr",
       "type": "procedure",
-      "sortid": 58,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_used_pr",
@@ -719,7 +719,7 @@
     {
       "name": "Activation",
       "type": "potioneffect",
-      "sortid": 59,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "activation",
@@ -733,7 +733,7 @@
     {
       "name": "BASE_adrenaline_pr",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "base_adrenaline_pr",
@@ -753,7 +753,7 @@
     {
       "name": "Recipepaper",
       "type": "item",
-      "sortid": 30,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipepaper",
@@ -768,7 +768,7 @@
     {
       "name": "BASE_RP_pr",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "base_rp_pr",
@@ -808,7 +808,7 @@
     {
       "name": "Recipeunlock1",
       "type": "achievement",
-      "sortid": 62,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipeunlock_1",
@@ -822,7 +822,7 @@
     {
       "name": "Recipeunlock2",
       "type": "achievement",
-      "sortid": 63,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipeunlock_2",
@@ -836,7 +836,7 @@
     {
       "name": "Recipepaperrecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipepaperrecipe",
@@ -850,7 +850,7 @@
     {
       "name": "Activatebandagerecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "activatebandagerecipe",
@@ -864,7 +864,7 @@
     {
       "name": "Lifecrystalrecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lifecrystalrecipe",
@@ -878,7 +878,7 @@
     {
       "name": "Steellanternrecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steellanternrecipe",
@@ -892,7 +892,7 @@
     {
       "name": "Steelfishingrod",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steelfishingrod",
@@ -907,7 +907,7 @@
     {
       "name": "Steelfishingrodrecipe",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steelfishingrodrecipe",
@@ -921,7 +921,7 @@
     {
       "name": "Remakelanternrecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remakelanternrecipe",
@@ -935,7 +935,7 @@
     {
       "name": "SL_FR_have_pr",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sl_fr_have_pr",
@@ -987,7 +987,7 @@
     {
       "name": "Berylliumcopperrecipe1",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "berylliumcopperrecipe_1",
@@ -1001,7 +1001,7 @@
     {
       "name": "Berylliumcopperrecipe2",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "berylliumcopperrecipe_2",
@@ -1015,7 +1015,7 @@
     {
       "name": "Berylliumcopperrecipe3",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "berylliumcopperrecipe_3",
@@ -1044,7 +1044,7 @@
     {
       "name": "CSK_atk_pr",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "csk_atk_pr",
@@ -1084,7 +1084,7 @@
     {
       "name": "BP_tick_pr",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bp_tick_pr",
@@ -1104,7 +1104,7 @@
     {
       "name": "BerylliumPoison",
       "type": "potioneffect",
-      "sortid": 76,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beryllium_poison",
@@ -1118,7 +1118,7 @@
     {
       "name": "Csk14recipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "csk_14recipe",
@@ -1132,7 +1132,7 @@
     {
       "name": "Remakesaddlerecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remakesaddlerecipe",
@@ -1161,7 +1161,7 @@
     {
       "name": "Steelrecipe4",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steelrecipe_4",
@@ -1175,7 +1175,7 @@
     {
       "name": "Steelrecipe5",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steelrecipe_5",
@@ -1204,7 +1204,7 @@
     {
       "name": "Berylliumcopperrecipe4",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "berylliumcopperrecipe_4",
@@ -1218,7 +1218,7 @@
     {
       "name": "Berylliumcopperrecipe5",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "berylliumcopperrecipe_5",
@@ -1250,7 +1250,7 @@
     {
       "name": "AlloyFurnacegui",
       "type": "gui",
-      "sortid": 84,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alloy_furnacegui",
@@ -1267,7 +1267,7 @@
     {
       "name": "SH_craft_pr",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sh_craft_pr",
@@ -1287,7 +1287,7 @@
     {
       "name": "SteelHammer",
       "type": "item",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hammer",
@@ -1302,7 +1302,7 @@
     {
       "name": "AF_gui_pr",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "af_gui_pr",
@@ -1322,7 +1322,7 @@
     {
       "name": "SteelHammerrecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hammerrecipe",
@@ -1336,7 +1336,7 @@
     {
       "name": "AlloyFurnacerecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alloy_furnacerecipe",
@@ -1647,7 +1647,7 @@
     {
       "name": "RecallPotion",
       "type": "item",
-      "sortid": 29,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recall_potion",
@@ -1751,16 +1751,10 @@
       "locked_code": false,
       "registry_name": "rp_grow_pr",
       "metadata": {
-        "return_type": "logic",
         "files": [
           "src/main/java/katana/procedures/RP_grow_prProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Other/Using item/Recall potion"
     },
@@ -1787,7 +1781,7 @@
     {
       "name": "SteelShears",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": true,
       "registry_name": "steel_shears",
@@ -1908,7 +1902,7 @@
     {
       "name": "AntidoteSyringe",
       "type": "item",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidote_syringe",
@@ -1939,7 +1933,7 @@
     {
       "name": "AntidoteSolution",
       "type": "item",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidote_solution",
@@ -1954,7 +1948,7 @@
     {
       "name": "EmptyAntidoteVial",
       "type": "item",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_antidote_vial",
@@ -1969,7 +1963,7 @@
     {
       "name": "AntidoteSyringerecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidote_syringerecipe",
@@ -1983,7 +1977,7 @@
     {
       "name": "EmptyAntidoteVialrecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_antidote_vialrecipe",
@@ -1997,7 +1991,7 @@
     {
       "name": "AntidoteSolutionrecipe1",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidote_solutionrecipe_1",
@@ -2011,7 +2005,7 @@
     {
       "name": "AntidoteSolutionrecipe2",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidote_solutionrecipe_2",
@@ -2025,7 +2019,7 @@
     {
       "name": "AntidoteSolutionrecipe3",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidote_solutionrecipe_3",
@@ -2039,7 +2033,7 @@
     {
       "name": "AntidoteSyringerw",
       "type": "achievement",
-      "sortid": 120,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidote_syringerw",
@@ -2053,7 +2047,7 @@
     {
       "name": "TrailStick",
       "type": "item",
-      "sortid": 32,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trail_stick",
@@ -2068,7 +2062,7 @@
     {
       "name": "SimpleStick",
       "type": "item",
-      "sortid": 31,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "simple_stick",
@@ -2083,7 +2077,7 @@
     {
       "name": "TrailStickrecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trail_stickrecipe",
@@ -2097,7 +2091,7 @@
     {
       "name": "SimpleStickrecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "simple_stickrecipe",
@@ -2111,7 +2105,7 @@
     {
       "name": "AF_get_1_pr",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "af_get_1_pr",
@@ -2147,7 +2141,7 @@
     {
       "name": "BASE_activation_pr",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "base_activation_pr",
@@ -2167,7 +2161,7 @@
     {
       "name": "HF_get_1_pr",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hf_get_1_pr",
@@ -2203,7 +2197,7 @@
     {
       "name": "FurnaceRecipeViewer",
       "type": "gui",
-      "sortid": 126,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "furnace_recipe_viewer",
@@ -2219,7 +2213,7 @@
     {
       "name": "FRS_tick_pr",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frs_tick_pr",
@@ -2243,7 +2237,7 @@
     {
       "name": "FRS_right_pr",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frs_right_pr",
@@ -2275,7 +2269,7 @@
     {
       "name": "FRS_left_pr",
       "type": "procedure",
-      "sortid": 129,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frs_left_pr",
@@ -2307,7 +2301,7 @@
     {
       "name": "FRS_open_pr",
       "type": "procedure",
-      "sortid": 130,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frs_open_pr",
@@ -2343,7 +2337,7 @@
     {
       "name": "FRS_close_pr",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frs_close_pr",
@@ -2379,7 +2373,7 @@
     {
       "name": "FRS_set_pr",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frs_set_pr",
@@ -2415,7 +2409,7 @@
     {
       "name": "Remaketorchrecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remaketorchrecipe",
@@ -2444,7 +2438,7 @@
     {
       "name": "AB_tip_pr",
       "type": "procedure",
-      "sortid": 134,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_tip_pr",
@@ -2468,7 +2462,7 @@
     {
       "name": "AS_tip_pr",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "as_tip_pr",
@@ -2492,7 +2486,7 @@
     {
       "name": "CSK_tip_pr",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "csk_tip_pr",
@@ -2516,7 +2510,7 @@
     {
       "name": "SL_damge_pr",
       "type": "procedure",
-      "sortid": 137,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sl_damge_pr",
@@ -2540,7 +2534,7 @@
     {
       "name": "SK_tip_pr",
       "type": "procedure",
-      "sortid": 138,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sk_tip_pr",
@@ -2564,7 +2558,7 @@
     {
       "name": "TS_tip_pr",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ts_tip_pr",
@@ -2588,7 +2582,7 @@
     {
       "name": "Enrichwithkatana",
       "type": "tab",
-      "sortid": 140,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enrichwithkatana",
@@ -2600,7 +2594,7 @@
     {
       "name": "DK_tip_pr",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dk_tip_pr",
@@ -2624,7 +2618,7 @@
     {
       "name": "AF_gui_f_pr",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "af_gui_f_pr",
@@ -2656,7 +2650,7 @@
     {
       "name": "AF_broke_pr",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "af_broke_pr",
@@ -2688,7 +2682,7 @@
     {
       "name": "Wirechainrecipe",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wirechainrecipe",
@@ -2702,7 +2696,7 @@
     {
       "name": "Base_damage_amount_pr",
       "type": "procedure",
-      "sortid": 145,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "base_damage_amount_pr",
@@ -2722,7 +2716,7 @@
     {
       "name": "AS_use_pr",
       "type": "procedure",
-      "sortid": 146,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "as_use_pr",
@@ -2762,7 +2756,7 @@
     {
       "name": "AS_tick_pr",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "as_tick_pr",
@@ -2802,7 +2796,7 @@
     {
       "name": "SK_swing_pr",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sk_swing_pr",
@@ -2822,14 +2816,11 @@
     {
       "name": "Base_style_adjust_pr",
       "type": "procedure",
-      "sortid": 149,
+      "sortid": 148,
       "compiles": true,
       "locked_code": true,
       "registry_name": "base_style_adjust_pr",
       "metadata": {
-        "files": [
-          "src/main/java/katana/procedures/Base_style_adjust_prProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2842,7 +2833,7 @@
     {
       "name": "Base_style_change_pr",
       "type": "procedure",
-      "sortid": 150,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "base_style_change_pr",
@@ -2878,7 +2869,7 @@
     {
       "name": "Stylechange",
       "type": "keybind",
-      "sortid": 155,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stylechange",
@@ -2890,33 +2881,9 @@
       "path": "~/Base/.Style"
     },
     {
-      "name": "Base_style_tooltip_pr",
-      "type": "procedure",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "base_style_tooltip_pr",
-      "metadata": {
-        "files": [
-          "src/main/java/katana/procedures/Base_style_tooltip_prProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "tooltip",
-            "type": "tooltip"
-          }
-        ]
-      },
-      "path": "~/Base/.Style"
-    },
-    {
       "name": "Basestyleoverlay",
       "type": "overlay",
-      "sortid": 156,
+      "sortid": 151,
       "compiles": true,
       "locked_code": true,
       "registry_name": "basestyleoverlay",
@@ -2993,7 +2960,7 @@
     {
       "name": "Gleamingsteelarmor",
       "type": "armor",
-      "sortid": 157,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gleamingsteelarmor",
@@ -3011,7 +2978,7 @@
     {
       "name": "Gleamingsteelarmorhelmetrecipe",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gleamingsteelarmorhelmetrecipe",
@@ -3025,7 +2992,7 @@
     {
       "name": "Gleamingsteelarmorchestplaterecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gleamingsteelarmorchestplaterecipe",
@@ -3039,7 +3006,7 @@
     {
       "name": "Gleamingsteelarmorleggingsrecipe",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gleamingsteelarmorleggingsrecipe",
@@ -3053,7 +3020,7 @@
     {
       "name": "Gleamingsteelarmorbootsrecipe",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gleamingsteelarmorbootsrecipe",
@@ -3063,6 +3030,99 @@
         ]
       },
       "path": "~/Material/Beryllium Copper/BC_Gleaming Steel Armor"
+    },
+    {
+      "name": "Activeplaster",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activeplaster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enrich_with_katana/models/item/activeplaster.json",
+          "src/main/java/katana/item/ActiveplasterItem.java"
+        ]
+      },
+      "path": "~/Other/Using item/Active Plaster"
+    },
+    {
+      "name": "AC_used",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ac_used",
+      "metadata": {
+        "files": [
+          "src/main/java/katana/procedures/AC_usedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other/Using item/Active Plaster"
+    },
+    {
+      "name": "Activeplasterrecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activeplasterrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrich_with_katana/recipes/activeplasterrecipe.json"
+        ]
+      },
+      "path": "~/Other/Using item/Active Plaster"
+    },
+    {
+      "name": "AC_tips",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ac_tips",
+      "metadata": {
+        "files": [
+          "src/main/java/katana/procedures/AC_tipsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Other/Using item/Active Plaster"
     }
   ],
   "variable_elements": [
@@ -3163,6 +3223,7 @@
       "advancements.steelreciperw.title": "Steelreciperw",
       "advancements.steel_shearsreciperw.title": "Steel Shearsreciperw",
       "pr.enrich_with_katana.recall_potion.set": " §a§l spawn point recorded",
+      "item.enrich_with_katana.activeplaster": "Activeplaster",
       "gui.enrich_with_katana.furnace_recipe_viewer.button_x": "x",
       "item.enrich_with_katana.reinforced_katana": "Reinforced Katana",
       "item.enrich_with_katana.recall_potion": "Recall Potion",
@@ -3247,6 +3308,7 @@
       "advancements.steelreciperw.title": "Steelreciperw",
       "advancements.steel_shearsreciperw.title": "Steel Shearsreciperw",
       "pr.enrich_with_katana.recall_potion.set": "§a§l帰還場所を記録しました",
+      "item.enrich_with_katana.activeplaster": "活性絆創膏",
       "gui.enrich_with_katana.furnace_recipe_viewer.button_x": "X",
       "item.enrich_with_katana.reinforced_katana": "強化刀",
       "item.enrich_with_katana.recall_potion": "帰還のポーション",
@@ -3284,7 +3346,7 @@
       "item.enrich_with_katana.divine_katana": "聖刀",
       "item.enrich_with_katana.aluminumingot": "アルミニウム",
       "item.enrich_with_katana.simple_stick": "シンプル スティック",
-      "item.enrich_with_katana.activatebandage": "活性バンドエイド",
+      "item.enrich_with_katana.activatebandage": "活性包帯",
       "gui.enrich_with_katana.antidote_syringegui.label_antidote_syringe": "解毒注射器",
       "block.enrich_with_katana.light_air": "光源",
       "item.enrich_with_katana.gleamingsteelarmor_leggings": "鋼煌のレギンス",
@@ -3422,6 +3484,10 @@
               },
               {
                 "name": "Trail Stick",
+                "children": []
+              },
+              {
+                "name": "Active Plaster",
                 "children": []
               }
             ]

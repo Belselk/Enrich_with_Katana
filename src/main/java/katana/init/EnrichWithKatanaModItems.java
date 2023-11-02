@@ -39,6 +39,7 @@ import katana.item.AntidoteSolutionItem;
 import katana.item.AluminumingotItem;
 import katana.item.AlloyPowdersteelItem;
 import katana.item.AlloyPowderberylliumcopperItem;
+import katana.item.ActiveplasterItem;
 import katana.item.ActivatebandageItem;
 
 import katana.EnrichWithKatanaMod;
@@ -64,6 +65,10 @@ public class EnrichWithKatanaModItems {
 	public static final RegistryObject<Item> REINFORCED_KATANA = REGISTRY.register("reinforced_katana", () -> new ReinforcedKatanaItem());
 	public static final RegistryObject<Item> CSK_14 = REGISTRY.register("csk_14", () -> new Csk14Item());
 	public static final RegistryObject<Item> DIVINE_KATANA = REGISTRY.register("divine_katana", () -> new DivineKatanaItem());
+	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_HELMET = REGISTRY.register("gleamingsteelarmor_helmet", () -> new GleamingsteelarmorItem.Helmet());
+	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_CHESTPLATE = REGISTRY.register("gleamingsteelarmor_chestplate", () -> new GleamingsteelarmorItem.Chestplate());
+	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_LEGGINGS = REGISTRY.register("gleamingsteelarmor_leggings", () -> new GleamingsteelarmorItem.Leggings());
+	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_BOOTS = REGISTRY.register("gleamingsteelarmor_boots", () -> new GleamingsteelarmorItem.Boots());
 	public static final RegistryObject<Item> STEEL_HAMMER = REGISTRY.register("steel_hammer", () -> new SteelHammerItem());
 	public static final RegistryObject<Item> STEEL_LANTERN = REGISTRY.register("steel_lantern", () -> new SteelLanternItem());
 	public static final RegistryObject<Item> STEELFISHINGROD = REGISTRY.register("steelfishingrod", () -> new SteelfishingrodItem());
@@ -71,6 +76,7 @@ public class EnrichWithKatanaModItems {
 	public static final RegistryObject<Item> ANTIDOTE_SYRINGE = REGISTRY.register("antidote_syringe", () -> new AntidoteSyringeItem());
 	public static final RegistryObject<Item> ANTIDOTE_SOLUTION = REGISTRY.register("antidote_solution", () -> new AntidoteSolutionItem());
 	public static final RegistryObject<Item> EMPTY_ANTIDOTE_VIAL = REGISTRY.register("empty_antidote_vial", () -> new EmptyAntidoteVialItem());
+	public static final RegistryObject<Item> ACTIVEPLASTER = REGISTRY.register("activeplaster", () -> new ActiveplasterItem());
 	public static final RegistryObject<Item> ACTIVATEBANDAGE = REGISTRY.register("activatebandage", () -> new ActivatebandageItem());
 	public static final RegistryObject<Item> LIFECRYSTAL = REGISTRY.register("lifecrystal", () -> new LifecrystalItem());
 	public static final RegistryObject<Item> RECALL_POTION = REGISTRY.register("recall_potion", () -> new RecallPotionItem());
@@ -78,10 +84,6 @@ public class EnrichWithKatanaModItems {
 	public static final RegistryObject<Item> SIMPLE_STICK = REGISTRY.register("simple_stick", () -> new SimpleStickItem());
 	public static final RegistryObject<Item> TRAIL_STICK = REGISTRY.register("trail_stick", () -> new TrailStickItem());
 	public static final RegistryObject<Item> LIGHT_AIR = block(EnrichWithKatanaModBlocks.LIGHT_AIR, null);
-	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_HELMET = REGISTRY.register("gleamingsteelarmor_helmet", () -> new GleamingsteelarmorItem.Helmet());
-	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_CHESTPLATE = REGISTRY.register("gleamingsteelarmor_chestplate", () -> new GleamingsteelarmorItem.Chestplate());
-	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_LEGGINGS = REGISTRY.register("gleamingsteelarmor_leggings", () -> new GleamingsteelarmorItem.Leggings());
-	public static final RegistryObject<Item> GLEAMINGSTEELARMOR_BOOTS = REGISTRY.register("gleamingsteelarmor_boots", () -> new GleamingsteelarmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

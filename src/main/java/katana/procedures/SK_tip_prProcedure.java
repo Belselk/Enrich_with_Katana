@@ -33,6 +33,10 @@ public class SK_tip_prProcedure {
 		if (tooltip == null)
 			return;
 		if (itemstack.getItem() == EnrichWithKatanaModItems.STEEL_KATANA.get()) {
+			tooltip.add(Component.literal(("\u00A77" + "\u525B\u5263\u8853\u306E\u3068\u304D\uFF1A")));
+			tooltip.add(Component.literal(("\u00A72" + "\u653B\u6483\u529B +8.3")));
+			tooltip.add(Component.literal(("\u00A72" + "\u653B\u6483\u901F\u5EA6 -1")));
+			tooltip.add(Component.literal(("\u00A72" + "\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\u8DDD\u96E2 +1")));
 			if (Screen.hasShiftDown()) {
 				tooltip.add(Component.literal(("\u00A77" + "\u92ED\u3044\u7247\u5203\u306E\u5263")));
 				tooltip.add(Component.literal(("\u00A77" + "\u6226\u95D8\u529B\u306F\u9AD8\u3044\u304C\u3001\u8010\u4E45\u6027\u306F\u9AD8\u304F\u306A\u3044")));
@@ -42,6 +46,10 @@ public class SK_tip_prProcedure {
 				tooltip.add(Component.literal((Component.translatable("tip.enrich_with_katana.press_shift").getString())));
 			}
 		} else if (itemstack.getItem() == EnrichWithKatanaModItems.REINFORCED_KATANA.get()) {
+			tooltip.add(Component.literal(("\u00A77" + "\u525B\u5263\u8853\u306E\u3068\u304D\uFF1A")));
+			tooltip.add(Component.literal(("\u00A72" + "\u653B\u6483\u529B +8.3")));
+			tooltip.add(Component.literal(("\u00A72" + "\u653B\u6483\u901F\u5EA6 -1")));
+			tooltip.add(Component.literal(("\u00A72" + "\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\u8DDD\u96E2 +1")));
 			if (Screen.hasShiftDown()) {
 				tooltip.add(Component.literal(("\u00A77" + "\u5F37\u5316\u3055\u308C\u305F\u92ED\u3044\u7247\u5203\u306E\u5263")));
 				tooltip.add(Component.literal(("\u00A77" + "\u8010\u4E45\u6027\u304C\u8457\u3057\u304F\u5411\u4E0A\u3057\u305F")));

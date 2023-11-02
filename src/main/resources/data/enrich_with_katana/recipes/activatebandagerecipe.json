@@ -6,20 +6,20 @@
   ],
   "key": {
     "1": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:phantom_membrane"
     },
     "3": {
-      "tag": "minecraft:carpets"
+      "tag": "minecraft:wool"
     },
     "4": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:redstone_block"
     },
     "5": {
-      "tag": "minecraft:carpets"
+      "tag": "minecraft:wool"
     }
   },
   "result": {
     "item": "enrich_with_katana:activatebandage",
-    "count": 4
+    "count": 2
   }
 }

@@ -28,10 +28,7 @@
       "§c§l焚き火に帰還することができる",
       "§c§l Can return to the campfire"
     ],
-    "hasGlow": true,
-    "glowCondition": {
-      "name": "RP_grow_pr"
-    },
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
