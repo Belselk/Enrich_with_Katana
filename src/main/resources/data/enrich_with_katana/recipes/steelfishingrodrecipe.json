@@ -1,24 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  2",
-    " 45",
-    "6 8"
+    "  a",
+    " ab",
+    "a b"
   ],
   "key": {
-    "2": {
+    "a": {
       "item": "enrich_with_katana:steelingot"
     },
-    "4": {
-      "item": "enrich_with_katana:steelingot"
-    },
-    "5": {
-      "item": "enrich_with_katana:wire"
-    },
-    "6": {
-      "item": "enrich_with_katana:steelingot"
-    },
-    "8": {
+    "b": {
       "item": "enrich_with_katana:wire"
     }
   },

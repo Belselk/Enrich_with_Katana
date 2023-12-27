@@ -1,21 +1,12 @@
 {
-  "group": "chain_armor",
   "type": "minecraft:crafting_shaped",
+  "group": "chain_armor",
   "pattern": [
-    "0 2",
-    "3 5"
+    "a a",
+    "a a"
   ],
   "key": {
-    "0": {
-      "item": "minecraft:chain"
-    },
-    "2": {
-      "item": "minecraft:chain"
-    },
-    "3": {
-      "item": "minecraft:chain"
-    },
-    "5": {
+    "a": {
       "item": "minecraft:chain"
     }
   },

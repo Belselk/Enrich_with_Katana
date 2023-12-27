@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
-    " 45",
-    "6  "
+    " a ",
+    " ba",
+    "c  "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "enrich_with_katana:steelingot"
     },
-    "4": {
+    "b": {
       "item": "minecraft:shears"
     },
-    "5": {
-      "item": "enrich_with_katana:steelingot"
-    },
-    "6": {
+    "c": {
       "item": "minecraft:leather"
     }
   },

@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1",
-    "2 "
+    " a",
+    "b "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "enrich_with_katana:beryllium_copper"
     },
-    "2": {
+    "b": {
       "item": "enrich_with_katana:steelingot"
     }
   },

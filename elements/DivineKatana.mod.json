@@ -1,16 +1,20 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
+    "toolType": "Sword",
     "renderType": 1,
+    "blockingRenderType": 0,
     "texture": "holykatana",
     "customModelName": "divine:default",
+    "blockingModelName": "Normal blocking",
     "name": "Divine Katana",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:Enrichwithkatana"
     },
-    "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 8.0,
     "attackSpeed": 2.0,
@@ -18,7 +22,6 @@
     "damageVsEntity": 4.5,
     "usageCount": 1000,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

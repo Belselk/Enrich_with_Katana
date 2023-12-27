@@ -8,7 +8,10 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
 import katana.procedures.RP_used_prProcedure;
@@ -20,9 +23,7 @@ import java.util.List;
 
 public class RecallPotionItem extends Item {
 	public RecallPotionItem() {
-		super(new Item.Properties().tab(EnrichWithKatanaModTabs.TAB_ENRICHWITHKATANA).stacksTo(1).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
-
-				.build()));
+		super(new Item.Properties().tab(EnrichWithKatanaModTabs.TAB_ENRICHWITHKATANA).stacksTo(1).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat().build()));
 	}
 
 	@Override
@@ -43,12 +44,18 @@ public class RecallPotionItem extends Item {
 	}
 
 	@Override
+	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
+		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
+		entity.startUsingItem(hand);
+		return ar;
+	}
+
+	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		RP_used_prProcedure.execute(world, x, y, z, entity, itemstack);
 		return retval;
 	}

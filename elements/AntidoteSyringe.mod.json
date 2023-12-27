@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "antidote_syringe",
     "customModelName": "Tool",
+    "customProperties": {},
+    "states": [],
     "name": "Antidote Syringe",
     "rarity": "COMMON",
     "creativeTab": {
@@ -24,8 +26,9 @@
     "damageOnCrafting": true,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "guiBoundTo": "AntidoteSyringegui",
     "inventorySize": 2,
     "inventoryStackSize": 4,
@@ -35,6 +38,8 @@
     "onItemInInventoryTick": {
       "name": "AS_tick_pr"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

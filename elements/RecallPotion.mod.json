@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "recallpotion",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Recall Potion",
     "rarity": "UNCOMMON",
     "creativeTab": {
@@ -24,11 +26,12 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§c§l焚き火に帰還することができる",
-      "§c§l Can return to the campfire"
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "§c§l焚き火に帰還することができる",
+        "§c§l Can return to the campfire"
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -38,6 +41,8 @@
     "onFinishUsingItem": {
       "name": "RP_used_pr"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": true,
     "nutritionalValue": 0,
     "saturation": 0.0,

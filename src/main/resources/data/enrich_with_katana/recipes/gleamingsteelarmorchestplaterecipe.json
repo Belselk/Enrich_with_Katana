@@ -1,34 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a a",
+    "aba",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "enrich_with_katana:steelingot"
     },
-    "2": {
-      "item": "enrich_with_katana:steelingot"
-    },
-    "3": {
-      "item": "enrich_with_katana:steelingot"
-    },
-    "4": {
+    "b": {
       "item": "enrich_with_katana:beryllium_copper"
-    },
-    "5": {
-      "item": "enrich_with_katana:steelingot"
-    },
-    "6": {
-      "item": "enrich_with_katana:steelingot"
-    },
-    "7": {
-      "item": "enrich_with_katana:beryllium_copper"
-    },
-    "8": {
-      "item": "enrich_with_katana:steelingot"
     }
   },
   "result": {

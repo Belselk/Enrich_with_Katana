@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "overlay",
   "definition": {
     "priority": "NORMAL",
@@ -12,6 +12,7 @@
           "displayCondition": {
             "name": "Base_style_overlay_f_pr"
           },
+          "anchorPoint": "CENTER",
           "x": 2,
           "y": 219
         }
@@ -24,6 +25,7 @@
           "displayCondition": {
             "name": "Base_style_overlay_t_pr"
           },
+          "anchorPoint": "CENTER",
           "x": 2,
           "y": 219
         }

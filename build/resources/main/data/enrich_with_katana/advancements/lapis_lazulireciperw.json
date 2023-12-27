@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "minecraft:lapis_lazuli"
+              "minecraft:lapis_lazuli\r\n"
             ],
             "count": {
               "min": 1,
@@ -24,5 +24,5 @@
       "enrich_with_katana:lifecrystalrecipe"
     ]
   },
-  "parent": "enrich_with_katana:recipeunlock_1"
+  "parent": "enrich_with_katana:deleted_mod_element"
 }

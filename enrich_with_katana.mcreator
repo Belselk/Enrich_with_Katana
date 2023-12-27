@@ -9,11 +9,12 @@
       "registry_name": "bauxiteore",
       "metadata": {
         "files": [
-          "src/main/java/katana/world/features/ores/BauxiteoreFeature.java",
           "src/main/resources/assets/enrich_with_katana/models/block/bauxiteore.json",
           "src/main/resources/data/enrich_with_katana/forge/biome_modifier/bauxiteore_biome_modifier.json",
           "src/main/resources/assets/enrich_with_katana/models/item/bauxiteore.json",
           "src/main/java/katana/block/BauxiteoreBlock.java",
+          "src/main/resources/data/enrich_with_katana/worldgen/configured_feature/bauxiteore.json",
+          "src/main/resources/data/enrich_with_katana/worldgen/placed_feature/bauxiteore.json",
           "src/main/resources/assets/enrich_with_katana/blockstates/bauxiteore.json"
         ]
       },
@@ -745,6 +746,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
           }
         ]
       },
@@ -801,34 +806,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      },
-      "path": "~/Base/Recipe book"
-    },
-    {
-      "name": "Recipeunlock1",
-      "type": "achievement",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipeunlock_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/enrich_with_katana/advancements/recipeunlock_1.json"
-        ]
-      },
-      "path": "~/Base/Recipe book"
-    },
-    {
-      "name": "Recipeunlock2",
-      "type": "achievement",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipeunlock_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/enrich_with_katana/advancements/recipeunlock_2.json"
         ]
       },
       "path": "~/Base/Recipe book"
@@ -1714,20 +1691,6 @@
         ]
       },
       "path": "~/Other/Using item/Life crystal"
-    },
-    {
-      "name": "Recipeunlock3",
-      "type": "achievement",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipeunlock_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/enrich_with_katana/advancements/recipeunlock_3.json"
-        ]
-      },
-      "path": "~/Base/Recipe book"
     },
     {
       "name": "Berylliumcopperunlockrw",
@@ -2818,9 +2781,12 @@
       "type": "procedure",
       "sortid": 148,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "base_style_adjust_pr",
       "metadata": {
+        "files": [
+          "src/main/java/katana/procedures/Base_style_adjust_prProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -3091,7 +3057,7 @@
       "type": "recipe",
       "sortid": 160,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "activeplasterrecipe",
       "metadata": {
         "files": [
@@ -3127,12 +3093,6 @@
   ],
   "variable_elements": [
     {
-      "name": "Max_HP",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "20.0"
-    },
-    {
       "name": "swing_cooltime",
       "type": "number",
       "scope": "player_persistent",
@@ -3161,6 +3121,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "extend_life",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -3184,16 +3150,15 @@
   "language_map": {
     "en_us": {
       "advancements.steel_shearsreciperw.descr": "n",
-      "item.enrich_with_katana.steelingot": "Steelingot",
-      "item.enrich_with_katana.steel_katana": "Steel Katana",
-      "item.enrich_with_katana.steelfishingrod": "Steelfishingrod",
-      "gui.enrich_with_katana.hellfurnacegui.button_craft": "craft",
       "key.enrich_with_katana.stylechange": "Style change",
+      "gui.enrich_with_katana.hellfurnacegui.button_craft": "craft",
+      "item.enrich_with_katana.steelfishingrod": "Steelfishingrod",
+      "item.enrich_with_katana.steel_katana": "Steel Katana",
+      "item.enrich_with_katana.steelingot": "Steelingot",
       "item.enrich_with_katana.divine_tamahagane": "Divine Tamahagane",
       "block.enrich_with_katana.blockof_steel": "Blockof Steel",
       "gui.enrich_with_katana.antidote_syringegui.label_empty_antidote_vial": "Empty Vial",
       "itemGroup.tabenrichwithkatana": "Enrich with Katana",
-      "advancements.recipeunlock_1.descr": "got aluminum for the first time.",
       "block.enrich_with_katana.blockofaluminum": "Blockofaluminum",
       "item.enrich_with_katana.steel_shears": "Steel Shears",
       "item.enrich_with_katana.lifecrystal": "Life crystal",
@@ -3201,14 +3166,12 @@
       "gui.enrich_with_katana.hellfurnacegui.button_recipe": "recipe",
       "block.enrich_with_katana.alloy_furnace": "Alloy Furnace",
       "tip.enrich_with_katana.press_shift": "§8Press shift to show tooltip ",
-      "advancements.recipeunlock_1.title": "This is...iron?",
       "gui.enrich_with_katana.alloy_furnacegui.button_craft": "craft",
       "gui.enrich_with_katana.antidote_syringegui.label_solution_srot": "Solution Srot",
       "gui.enrich_with_katana.furnace_recipe_viewer.label_recipe_book": "Recipe Book",
       "advancements.wirereciperw.title": "Wirereciperw",
       "block.enrich_with_katana.hell_furnace": "Hell Furnace",
       "block.enrich_with_katana.blockof_berylliumcopper": "Block of beryllium copper",
-      "advancements.recipeunlock_3.title": "Recipeunlock 3",
       "advancements.lapis_lazulireciperw.descr": "n",
       "advancements.wirereciperw.descr": "n",
       "item.enrich_with_katana.steel_lantern": "Steel Lantern",
@@ -3230,14 +3193,12 @@
       "gui.enrich_with_katana.furnace_recipe_viewer.button_set": "SET",
       "effect.enrich_with_katana.activation": "Activation",
       "item.enrich_with_katana.wire": "Wire",
-      "advancements.recipeunlock_2.title": "Trajectory of Civilization",
       "gui.enrich_with_katana.alloy_furnacegui.button_recipe": "recipe",
       "gui.enrich_with_katana.hellfurnacegui.label_hell_furnace": "Hell Furnace",
       "advancements.berylliumcopperunlockrw.title": "Berylliumcopperunlockrw",
       "item.enrich_with_katana.raw_bauxite": "Raw Bauxite",
       "advancements.antidote_syringerw.descr": "n",
       "advancements.lapis_lazulireciperw.title": "Lapis Lazulireciperw",
-      "advancements.recipeunlock_2.descr": "Using recipe paper",
       "advancements.berylliumcopperunlockrw.descr": "n",
       "gui.enrich_with_katana.basestyleoverlay.label_su": "速",
       "block.enrich_with_katana.bauxiteore": "Bauxiteore",
@@ -3255,7 +3216,6 @@
       "effect.enrich_with_katana.adrenaline": "Adrenaline",
       "item.enrich_with_katana.steel_hammer": "Steel Hammer",
       "item.enrich_with_katana.antidote_solution": "Antidote Solution",
-      "advancements.recipeunlock_3.descr": "3",
       "pr.enrich_with_katana.recall_potion.not_found": "§4§lNo campfire remains in the recorded location or the fire has been extinguished",
       "gui.enrich_with_katana.furnace_recipe_viewer.button_empty": "\u003e",
       "item.enrich_with_katana.divine_katana": "Divine Katana",
@@ -3269,16 +3229,15 @@
     },
     "ja_jp": {
       "advancements.steel_shearsreciperw.descr": "n",
-      "gui.enrich_with_katana.hellfurnacegui.button_craft": "作成",
-      "item.enrich_with_katana.steel_katana": "刀",
-      "item.enrich_with_katana.steelfishingrod": "鋼の釣り竿",
-      "item.enrich_with_katana.steelingot": "鋼インゴット",
       "key.enrich_with_katana.stylechange": "Style change",
+      "item.enrich_with_katana.steelingot": "鋼インゴット",
+      "item.enrich_with_katana.steelfishingrod": "鋼の釣り竿",
+      "item.enrich_with_katana.steel_katana": "刀",
+      "gui.enrich_with_katana.hellfurnacegui.button_craft": "作成",
       "item.enrich_with_katana.divine_tamahagane": "神聖な玉鋼",
       "block.enrich_with_katana.blockof_steel": "鋼ブロック",
       "gui.enrich_with_katana.antidote_syringegui.label_empty_antidote_vial": "空の容器",
       "itemGroup.tabenrichwithkatana": "Enrich with Katana",
-      "advancements.recipeunlock_1.descr": "アルミニウムを手に入れた",
       "block.enrich_with_katana.blockofaluminum": "アルミニウムブロック",
       "item.enrich_with_katana.steel_shears": "鋼のハサミ",
       "item.enrich_with_katana.lifecrystal": "ライフクリスタル",
@@ -3286,14 +3245,12 @@
       "gui.enrich_with_katana.hellfurnacegui.button_recipe": "recipe",
       "block.enrich_with_katana.alloy_furnace": "合成炉",
       "tip.enrich_with_katana.press_shift": "§8shiftを押して詳細情報を表示",
-      "advancements.recipeunlock_1.title": "鉄のようで鉄ではない",
       "gui.enrich_with_katana.alloy_furnacegui.button_craft": "作成",
       "gui.enrich_with_katana.antidote_syringegui.label_solution_srot": "薬剤スロット",
       "gui.enrich_with_katana.furnace_recipe_viewer.label_recipe_book": "Recipe Book",
       "advancements.wirereciperw.title": "Wirereciperw",
       "block.enrich_with_katana.hell_furnace": "獄炎炉",
       "block.enrich_with_katana.blockof_berylliumcopper": "ベリリウム銅ブロック",
-      "advancements.recipeunlock_3.title": "Recipeunlock 3",
       "advancements.lapis_lazulireciperw.descr": "n",
       "advancements.wirereciperw.descr": "n",
       "item.enrich_with_katana.steel_lantern": "鋼のランタン",
@@ -3314,7 +3271,6 @@
       "item.enrich_with_katana.recall_potion": "帰還のポーション",
       "gui.enrich_with_katana.furnace_recipe_viewer.button_set": "セット",
       "effect.enrich_with_katana.activation": "過活性",
-      "advancements.recipeunlock_2.title": "文明的な技術",
       "gui.enrich_with_katana.alloy_furnacegui.button_recipe": "レシピ",
       "item.enrich_with_katana.wire": "ワイヤー",
       "gui.enrich_with_katana.hellfurnacegui.label_hell_furnace": "獄炎炉",
@@ -3322,7 +3278,6 @@
       "item.enrich_with_katana.raw_bauxite": "ボーキサイト原石",
       "advancements.antidote_syringerw.descr": "n",
       "advancements.lapis_lazulireciperw.title": "Lapis Lazulireciperw",
-      "advancements.recipeunlock_2.descr": "レシピペーパーを使用し、汎用的なレシピを開放する",
       "advancements.berylliumcopperunlockrw.descr": "n",
       "gui.enrich_with_katana.basestyleoverlay.label_su": "速",
       "block.enrich_with_katana.bauxiteore": "ボーキサイト鉱石",
@@ -3340,7 +3295,6 @@
       "death.attack.Beryllium poison": "%1$sはベリリウム毒に侵され、死亡した。",
       "item.enrich_with_katana.antidote_solution": "解毒薬剤",
       "item.enrich_with_katana.steel_hammer": "鋼の鍛冶用ハンマー",
-      "advancements.recipeunlock_3.descr": "3",
       "pr.enrich_with_katana.recall_potion.not_found": "§4§l記録された場所に焚き火が残っていないか、火が消えてしまっています",
       "gui.enrich_with_katana.furnace_recipe_viewer.button_empty": "\u003e",
       "item.enrich_with_katana.divine_katana": "聖刀",
@@ -3515,5 +3469,5 @@
     "modElementsPackage": "katana",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300451615
 }

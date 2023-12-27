@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "lightair",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Light Air",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -123,7 +125,7 @@
     "onTickUpdate": {
       "name": "SL_LA_update_pr"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

@@ -1,36 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cac",
+    "dbd"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:coals"
     },
-    "1": {
+    "b": {
       "item": "minecraft:iron_ingot"
     },
-    "2": {
-      "tag": "minecraft:coals"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:copper_ingot"
     },
-    "4": {
-      "tag": "minecraft:coals"
-    },
-    "5": {
-      "item": "minecraft:copper_ingot"
-    },
-    "6": {
-      "item": "enrich_with_katana:aluminumingot"
-    },
-    "7": {
-      "item": "minecraft:iron_ingot"
-    },
-    "8": {
+    "d": {
       "item": "enrich_with_katana:aluminumingot"
     }
   },

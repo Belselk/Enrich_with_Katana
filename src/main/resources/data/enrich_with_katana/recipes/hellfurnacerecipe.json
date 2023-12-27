@@ -1,37 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "cdc"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:nether_bricks"
     },
-    "1": {
-      "item": "minecraft:nether_bricks"
-    },
-    "2": {
-      "item": "minecraft:nether_bricks"
-    },
-    "3": {
-      "item": "minecraft:nether_bricks"
-    },
-    "4": {
+    "b": {
       "item": "enrich_with_katana:alloy_furnace"
     },
-    "5": {
-      "item": "minecraft:nether_bricks"
-    },
-    "6": {
+    "c": {
       "item": "minecraft:lava_bucket"
     },
-    "7": {
+    "d": {
       "item": "enrich_with_katana:blockof_berylliumcopper"
-    },
-    "8": {
-      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

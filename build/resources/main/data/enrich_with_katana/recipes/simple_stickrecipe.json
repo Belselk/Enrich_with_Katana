@@ -1,30 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    " 7 "
+    "aba",
+    "aba",
+    " c "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:wheat"
     },
-    "1": {
+    "b": {
       "item": "minecraft:sugar"
     },
-    "2": {
-      "item": "minecraft:wheat"
-    },
-    "3": {
-      "item": "minecraft:wheat"
-    },
-    "4": {
-      "item": "minecraft:sugar"
-    },
-    "5": {
-      "item": "minecraft:wheat"
-    },
-    "7": {
+    "c": {
       "item": "minecraft:paper"
     }
   },

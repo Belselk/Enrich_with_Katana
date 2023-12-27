@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "enrich_with_katana:steelingot"
+              "enrich_with_katana:steelingot\r\n"
             ],
             "count": {
               "min": 1,

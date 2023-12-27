@@ -32,91 +32,97 @@ public class CSK_atk_prProcedure {
 		if (0 == (entity.getCapability(EnrichWithKatanaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new EnrichWithKatanaModVariables.PlayerVariables())).swing_cooltime) {
 			if (!ModList.get().isLoaded("bettercombat")) {
 				if (EnrichWithKatanaModItems.CSK_14.get() == (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()) {
-					random = Mth.nextInt(RandomSource.create(), 1, 10);
-					if (entity instanceof LivingEntity _entity)
-						_entity.swing(InteractionHand.OFF_HAND, true);
-					world.addParticle(ParticleTypes.SWEEP_ATTACK,
-							(entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(1)), ClipContext.Block.OUTLINE, ClipContext.Fluid.ANY, entity)).getBlockPos().getX()),
-							(entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(1)), ClipContext.Block.OUTLINE, ClipContext.Fluid.ANY, entity)).getBlockPos().getY()),
-							(entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(1)), ClipContext.Block.OUTLINE, ClipContext.Fluid.ANY, entity)).getBlockPos().getZ()), 0, 0, 0);
-					{
-						ItemStack _ist = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY);
-						if (_ist.hurt(1, RandomSource.create(), null)) {
-							_ist.shrink(1);
-							_ist.setDamageValue(0);
+					if (((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).getDamageValue() >= ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).getMaxDamage()
+							* 0.5) {
+						random = Mth.nextInt(RandomSource.create(), 1, 10);
+						if (entity instanceof LivingEntity _entity)
+							_entity.swing(InteractionHand.OFF_HAND, true);
+						world.addParticle(ParticleTypes.SWEEP_ATTACK,
+								(entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(1)), ClipContext.Block.OUTLINE, ClipContext.Fluid.ANY, entity)).getBlockPos().getX()),
+								(entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(1)), ClipContext.Block.OUTLINE, ClipContext.Fluid.ANY, entity)).getBlockPos().getY()),
+								(entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(1)), ClipContext.Block.OUTLINE, ClipContext.Fluid.ANY, entity)).getBlockPos().getZ()), 0, 0,
+								0);
+						{
+							ItemStack _ist = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY);
+							if (_ist.hurt(1, RandomSource.create(), null)) {
+								_ist.shrink(1);
+								_ist.setDamageValue(0);
+							}
 						}
-					}
-					if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) : false) {
-						if (1 <= (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) ? _livEnt.getEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()).getAmplifier() : 0)) {
-							if (7 < random) {
-								if (world instanceof ServerLevel _level)
-									_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
-								if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-									_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 60, 1));
-								if (world instanceof Level _level) {
-									if (!_level.isClientSide()) {
-										_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")), SoundSource.PLAYERS, 1, 1);
-									} else {
-										_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")), SoundSource.PLAYERS, 1, 1, false);
+						if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) : false) {
+							if (1 <= (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) ? _livEnt.getEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()).getAmplifier() : 0)) {
+								if (7 < random) {
+									if (world instanceof ServerLevel _level)
+										_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
+									if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+										_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 60, 1));
+									if (world instanceof Level _level) {
+										if (!_level.isClientSide()) {
+											_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")), SoundSource.PLAYERS, 1, 1);
+										} else {
+											_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")), SoundSource.PLAYERS, 1, 1, false);
+										}
 									}
+								}
+							} else {
+								if (7 < random) {
+									if (world instanceof ServerLevel _level)
+										_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
+									if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+										_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 100, 2));
 								}
 							}
 						} else {
 							if (7 < random) {
 								if (world instanceof ServerLevel _level)
-									_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
+									_level.sendParticles(ParticleTypes.CRIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
 								if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-									_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 100, 2));
+									_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 140, 0));
 							}
 						}
-					} else {
+					}
+				}
+			}
+			if (((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).getDamageValue() >= ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).getMaxDamage() * 0.5) {
+				random = Mth.nextInt(RandomSource.create(), 1, 10);
+				if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) : false) {
+					if (0 == (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) ? _livEnt.getEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()).getAmplifier() : 0)) {
 						if (7 < random) {
 							if (world instanceof ServerLevel _level)
 								_level.sendParticles(ParticleTypes.CRIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
 							if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-								_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 140, 0));
+								_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 100, 1));
 						}
-					}
-				}
-			}
-			random = Mth.nextInt(RandomSource.create(), 1, 10);
-			if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) : false) {
-				if (0 == (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) ? _livEnt.getEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()).getAmplifier() : 0)) {
-					if (7 < random) {
-						if (world instanceof ServerLevel _level)
-							_level.sendParticles(ParticleTypes.CRIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
-						if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-							_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 100, 1));
-					}
-				} else if (1 == (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) ? _livEnt.getEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()).getAmplifier() : 0)) {
-					if (8 < random) {
-						if (world instanceof ServerLevel _level)
-							_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
-						if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-							_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 60, 2));
-						if (world instanceof Level _level) {
-							if (!_level.isClientSide()) {
-								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")), SoundSource.PLAYERS, 1, 1);
-							} else {
-								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")), SoundSource.PLAYERS, 1, 1, false);
+					} else if (1 == (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()) ? _livEnt.getEffect(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get()).getAmplifier() : 0)) {
+						if (8 < random) {
+							if (world instanceof ServerLevel _level)
+								_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
+							if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+								_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 60, 2));
+							if (world instanceof Level _level) {
+								if (!_level.isClientSide()) {
+									_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")), SoundSource.PLAYERS, 1, 1);
+								} else {
+									_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")), SoundSource.PLAYERS, 1, 1, false);
+								}
 							}
 						}
 					}
+				} else {
+					if (5 < random) {
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles(ParticleTypes.CRIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
+						if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+							_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 140, 0));
+					}
 				}
-			} else {
-				if (5 < random) {
-					if (world instanceof ServerLevel _level)
-						_level.sendParticles(ParticleTypes.CRIT, x, (y + entity.getBbHeight() - 1.3), z, 200, 3, 0.5, 3, 1);
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-						_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.BERYLLIUM_POISON.get(), 140, 0));
+				{
+					double _setval = 5;
+					entity.getCapability(EnrichWithKatanaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.swing_cooltime = _setval;
+						capability.syncPlayerVariables(entity);
+					});
 				}
-			}
-			{
-				double _setval = 5;
-				entity.getCapability(EnrichWithKatanaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.swing_cooltime = _setval;
-					capability.syncPlayerVariables(entity);
-				});
 			}
 		}
 	}

@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
-    "345"
+    " a ",
+    "bcb"
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:phantom_membrane"
     },
-    "3": {
+    "b": {
       "tag": "minecraft:wool"
     },
-    "4": {
+    "c": {
       "item": "minecraft:redstone_block"
-    },
-    "5": {
-      "tag": "minecraft:wool"
     }
   },
   "result": {

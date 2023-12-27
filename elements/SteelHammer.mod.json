@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "hammer",
     "customModelName": "Tool",
+    "customProperties": {},
+    "states": [],
     "name": "Steel Hammer",
     "rarity": "COMMON",
     "creativeTab": {
@@ -24,17 +26,20 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§c§l刀鍛冶に必要§r",
-      "§c Needed for katana smithing§r"
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "§c§l刀鍛冶に必要§r",
+        "§c Needed for katana smithing§r"
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onCrafted": {
       "name": "SH_craft_pr"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

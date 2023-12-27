@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "enrich_with_katana:antidote_syringe"
+              "enrich_with_katana:antidote_syringe\r\n"
             ],
             "count": {
               "min": 1,

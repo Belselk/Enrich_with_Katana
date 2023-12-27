@@ -66,17 +66,17 @@ public class AlloyFurnaceguiSlotMessage {
 		context.setPacketHandled(true);
 	}
 
-	public static void handleSlotAction(Player entity, int slotID, int changeType, int meta, int x, int y, int z) {
+	public static void handleSlotAction(Player entity, int slot, int changeType, int meta, int x, int y, int z) {
 		Level world = entity.level;
 		HashMap guistate = AlloyFurnaceguiMenu.guistate;
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-		if (slotID == 0 && changeType == 1) {
+		if (slot == 0 && changeType == 1) {
 
 			AF_get_1_prProcedure.execute(world, x, y, z, entity);
 		}
-		if (slotID == 0 && changeType == 2) {
+		if (slot == 0 && changeType == 2) {
 			int amount = meta;
 
 			AF_get_1_prProcedure.execute(world, x, y, z, entity);

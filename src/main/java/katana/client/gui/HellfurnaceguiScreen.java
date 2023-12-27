@@ -56,7 +56,7 @@ public class HellfurnaceguiScreen extends AbstractContainerScreen<Hellfurnacegui
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("enrich_with_katana:textures/screens/style.png"));
-		this.blit(ms, this.leftPos + -4, this.topPos + 8, 0, 0, 176, 180, 176, 180);
+		this.blit(ms, this.leftPos + -5, this.topPos + 8, 0, 0, 176, 180, 176, 180);
 
 		RenderSystem.disableBlend();
 	}

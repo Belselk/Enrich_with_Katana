@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -15,6 +15,7 @@
         "data": {
           "name": "button_empty",
           "text": ">",
+          "isUndecorated": false,
           "onClick": {
             "name": "FRS_right_pr"
           },
@@ -29,6 +30,7 @@
         "data": {
           "name": "button_empty1",
           "text": "<",
+          "isUndecorated": false,
           "onClick": {
             "name": "FRS_left_pr"
           },
@@ -103,6 +105,7 @@
         "data": {
           "name": "button_x",
           "text": "x",
+          "isUndecorated": false,
           "onClick": {
             "name": "FRS_close_pr"
           },
@@ -117,6 +120,7 @@
         "data": {
           "name": "button_set",
           "text": "SET",
+          "isUndecorated": false,
           "onClick": {
             "name": "FRS_set_pr"
           },

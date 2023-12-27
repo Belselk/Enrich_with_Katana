@@ -38,38 +38,34 @@ public class FRS_close_prProcedure {
 			}
 		}
 		if (EnrichWithKatanaModBlocks.ALLOY_FURNACE.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock()) {
-			{
-				if (entity instanceof ServerPlayer _ent) {
-					BlockPos _bpos = new BlockPos(x, y, z);
-					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
-						@Override
-						public Component getDisplayName() {
-							return Component.literal("AlloyFurnacegui");
-						}
+			if (entity instanceof ServerPlayer _ent) {
+				BlockPos _bpos = new BlockPos(x, y, z);
+				NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
+					@Override
+					public Component getDisplayName() {
+						return Component.literal("AlloyFurnacegui");
+					}
 
-						@Override
-						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-							return new AlloyFurnaceguiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
-						}
-					}, _bpos);
-				}
+					@Override
+					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+						return new AlloyFurnaceguiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+					}
+				}, _bpos);
 			}
 		} else if (EnrichWithKatanaModBlocks.HELL_FURNACE.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock()) {
-			{
-				if (entity instanceof ServerPlayer _ent) {
-					BlockPos _bpos = new BlockPos(x, y, z);
-					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
-						@Override
-						public Component getDisplayName() {
-							return Component.literal("Hellfurnacegui");
-						}
+			if (entity instanceof ServerPlayer _ent) {
+				BlockPos _bpos = new BlockPos(x, y, z);
+				NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
+					@Override
+					public Component getDisplayName() {
+						return Component.literal("Hellfurnacegui");
+					}
 
-						@Override
-						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-							return new HellfurnaceguiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
-						}
-					}, _bpos);
-				}
+					@Override
+					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+						return new HellfurnaceguiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+					}
+				}, _bpos);
 			}
 		}
 	}

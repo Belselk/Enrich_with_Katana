@@ -35,5 +35,6 @@ public class BP_tick_prProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 1, 20));
 		}
+		entity.invulnerableTime = 0;
 	}
 }

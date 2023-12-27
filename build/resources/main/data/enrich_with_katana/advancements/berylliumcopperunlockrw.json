@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "enrich_with_katana:beryllium_copper"
+              "enrich_with_katana:beryllium_copper\r\n"
             ],
             "count": {
               "min": 1,

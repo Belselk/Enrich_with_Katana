@@ -1,27 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 2",
-    "345",
-    " 7 "
+    "a a",
+    "aba",
+    " b "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:redstone_block"
     },
-    "2": {
-      "item": "minecraft:redstone_block"
-    },
-    "3": {
-      "item": "minecraft:redstone_block"
-    },
-    "4": {
-      "item": "minecraft:lapis_block"
-    },
-    "5": {
-      "item": "minecraft:redstone_block"
-    },
-    "7": {
+    "b": {
       "item": "minecraft:lapis_block"
     }
   },

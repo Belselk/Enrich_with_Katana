@@ -34,7 +34,6 @@ import katana.init.EnrichWithKatanaModSounds;
 import katana.init.EnrichWithKatanaModMobEffects;
 import katana.init.EnrichWithKatanaModMenus;
 import katana.init.EnrichWithKatanaModItems;
-import katana.init.EnrichWithKatanaModFeatures;
 import katana.init.EnrichWithKatanaModBlocks;
 import katana.init.EnrichWithKatanaModBlockEntities;
 
@@ -61,7 +60,6 @@ public class EnrichWithKatanaMod {
 		EnrichWithKatanaModItems.REGISTRY.register(bus);
 
 		EnrichWithKatanaModBlockEntities.REGISTRY.register(bus);
-		EnrichWithKatanaModFeatures.REGISTRY.register(bus);
 
 		EnrichWithKatanaModMobEffects.REGISTRY.register(bus);
 

@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "life",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Life crystal",
     "rarity": "UNCOMMON",
     "creativeTab": {
@@ -24,16 +26,22 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§c§l体力の上限を上昇させる"
-    ],
-    "hasGlow": true,
+    "specialInformation": {
+      "fixedValue": [
+        "§c§l体力の上限を上昇させる"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
       "name": "LC_used_pr"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": true,
     "nutritionalValue": 0,
     "saturation": 0.0,

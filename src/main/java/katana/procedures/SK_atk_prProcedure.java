@@ -45,7 +45,7 @@ public class SK_atk_prProcedure {
 								* (sourceentity.getCapability(EnrichWithKatanaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new EnrichWithKatanaModVariables.PlayerVariables())).Damage_Amount));
 					}
 				}
-				if (entity instanceof LivingEntity _livEnt ? _livEnt.isBlocking() : false) {
+				if (entity instanceof LivingEntity _livEnt19 && _livEnt19.isBlocking()) {
 					((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).shrink(100);
 					if (entity instanceof Player _player)
 						_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem(), 100);

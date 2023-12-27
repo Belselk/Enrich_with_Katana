@@ -7,6 +7,7 @@ import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -32,6 +33,8 @@ import katana.item.inventory.AntidoteSyringeInventoryCapability;
 import katana.init.EnrichWithKatanaModTabs;
 
 import javax.annotation.Nullable;
+
+import java.util.List;
 
 import io.netty.buffer.Unpooled;
 
@@ -66,12 +69,13 @@ public class AntidoteSyringeItem extends Item {
 	}
 
 	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+	}
+
+	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		ItemStack itemstack = ar.getObject();
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
 		if (entity instanceof ServerPlayer serverPlayer) {
 			NetworkHooks.openScreen(serverPlayer, new MenuProvider() {
 				@Override
@@ -91,8 +95,7 @@ public class AntidoteSyringeItem extends Item {
 				buf.writeByte(hand == InteractionHand.MAIN_HAND ? 0 : 1);
 			});
 		}
-
-		AS_use_prProcedure.execute(world, x, y, z, entity, itemstack);
+		AS_use_prProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, ar.getObject());
 		return ar;
 	}
 
@@ -109,9 +112,8 @@ public class AntidoteSyringeItem extends Item {
 
 	@Override
 	public CompoundTag getShareTag(ItemStack stack) {
-		CompoundTag nbt = super.getShareTag(stack);
-		if (nbt != null)
-			stack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
+		CompoundTag nbt = stack.getOrCreateTag();
+		stack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
 		return nbt;
 	}
 

@@ -20,20 +20,25 @@ public class BASE_adrenaline_prProcedure {
 	public static void onEntityAttacked(LivingHurtEvent event) {
 		Entity entity = event.getEntity();
 		if (event != null && entity != null) {
-			execute(event, entity);
+			execute(event, entity, event.getAmount());
 		}
 	}
 
-	public static void execute(Entity entity) {
-		execute(null, entity);
+	public static void execute(Entity entity, double amount) {
+		execute(null, entity, amount);
 	}
 
-	private static void execute(@Nullable Event event, Entity entity) {
+	private static void execute(@Nullable Event event, Entity entity, double amount) {
 		if (entity == null)
 			return;
 		if (entity instanceof Player) {
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-				_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.ADRENALINE.get(), 53, 0, false, false));
+			if (amount > 6) {
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.ADRENALINE.get(), 92, 0, false, false));
+			} else if (amount > 2) {
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(EnrichWithKatanaModMobEffects.ADRENALINE.get(), 53, 0, false, false));
+			}
 		}
 	}
 }

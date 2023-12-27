@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "enrich_with_katana:wire"
+              "enrich_with_katana:wire\r\n"
             ],
             "count": {
               "min": 1,

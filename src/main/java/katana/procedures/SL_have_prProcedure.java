@@ -58,8 +58,8 @@ public class SL_have_prProcedure {
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 					} else {
-						if ((world.getBlockState(new BlockPos(SX, SY, SZ))).getMaterial() == net.minecraft.world.level.material.Material.AIR && !(Blocks.DIRT_PATH == (world.getBlockState(new BlockPos(SX, SY - 1, SZ))).getBlock())
-								&& !(Blocks.MYCELIUM == (world.getBlockState(new BlockPos(SX, SY - 1, SZ))).getBlock()) && !(Blocks.FARMLAND == (world.getBlockState(new BlockPos(SX, SY - 1, SZ))).getBlock())) {
+						if (false && !(Blocks.DIRT_PATH == (world.getBlockState(new BlockPos(SX, SY - 1, SZ))).getBlock()) && !(Blocks.MYCELIUM == (world.getBlockState(new BlockPos(SX, SY - 1, SZ))).getBlock())
+								&& !(Blocks.FARMLAND == (world.getBlockState(new BlockPos(SX, SY - 1, SZ))).getBlock())) {
 							world.setBlock(new BlockPos(SX, SY, SZ), EnrichWithKatanaModBlocks.LIGHT_AIR.get().defaultBlockState(), 3);
 						}
 					}

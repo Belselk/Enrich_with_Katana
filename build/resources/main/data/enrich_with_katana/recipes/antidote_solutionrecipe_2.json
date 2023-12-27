@@ -1,6 +1,6 @@
 {
-  "group": "antidotesolutionrecipe",
   "type": "minecraft:crafting_shapeless",
+  "group": "antidotesolutionrecipe",
   "ingredients": [
     {
       "item": "enrich_with_katana:empty_antidote_vial"

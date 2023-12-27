@@ -9,8 +9,8 @@ import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.core.BlockPos;
 
 import katana.init.EnrichWithKatanaModItems;
@@ -62,31 +62,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 1) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.IRON_INGOT);
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.COAL);
 					_setstack.setCount(1);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.COPPER_INGOT);
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.ALUMINUMINGOT.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.STEELINGOT.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);
@@ -102,31 +102,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 2) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.STEELINGOT.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.COPPER_INGOT);
 					_setstack.setCount(1);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.COAL);
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.GOLD_NUGGET);
 					_setstack.setCount(1);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);
@@ -142,31 +142,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 3) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.STEEL_HAMMER.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.LEATHER);
 					_setstack.setCount(1);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.STEEL_KATANA.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);
@@ -183,31 +183,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 4) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.COPPER_INGOT);
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.EMERALD);
 					_setstack.setCount(1);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.AMETHYST_SHARD);
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.EMERALD);
 					_setstack.setCount(1);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.BERYLLIUM_COPPER.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);
@@ -223,31 +223,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 5) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModBlocks.BLOCKOF_BERYLLIUMCOPPER.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.DIAMOND);
 					_setstack.setCount(5);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.TOTEM_OF_UNDYING);
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.DIAMOND);
 					_setstack.setCount(5);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.DIVINE_TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);
@@ -263,31 +263,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 6) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.STEEL_HAMMER.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.DIVINE_TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.DIVINE_TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.PHANTOM_MEMBRANE);
 					_setstack.setCount(1);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.DIVINE_KATANA.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);
@@ -304,31 +304,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 7) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.STEEL_KATANA.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModBlocks.BLOCKOF_BERYLLIUMCOPPER.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModBlocks.BLOCKOF_BERYLLIUMCOPPER.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.STEEL_KATANA.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.REINFORCED_KATANA.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);
@@ -344,31 +344,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 5) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModBlocks.BLOCKOF_BERYLLIUMCOPPER.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.DIAMOND);
 					_setstack.setCount(2);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.TOTEM_OF_UNDYING);
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.DIAMOND);
 					_setstack.setCount(2);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.DIVINE_TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);
@@ -384,31 +384,31 @@ public class FRS_tick_prProcedure {
 			}
 		}.getValue(world, new BlockPos(Bx, By, Bz), "nm") == 6) {
 			if (true) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.STEEL_HAMMER.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(6)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.DIVINE_TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(7)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.DIVINE_TAMAHAGANE.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(8)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Items.PHANTOM_MEMBRANE);
 					_setstack.setCount(1);
 					((Slot) _slots.get(9)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(EnrichWithKatanaModItems.DIVINE_KATANA.get());
 					_setstack.setCount(1);
 					((Slot) _slots.get(10)).set(_setstack);

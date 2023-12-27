@@ -1,16 +1,20 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
+    "toolType": "Fishing rod",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "steelfishingrod",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Steelfishingrod",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:Enrichwithkatana"
     },
-    "toolType": "Fishing rod",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
@@ -18,7 +22,6 @@
     "damageVsEntity": 4.0,
     "usageCount": 96,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:Wire"

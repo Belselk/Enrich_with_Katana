@@ -1,25 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 2",
-    " 4 ",
-    "6 8"
+    "a a",
+    " b ",
+    "a a"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "enrich_with_katana:wire"
     },
-    "2": {
-      "item": "enrich_with_katana:wire"
-    },
-    "4": {
+    "b": {
       "item": "minecraft:iron_ingot"
-    },
-    "6": {
-      "item": "enrich_with_katana:wire"
-    },
-    "8": {
-      "item": "enrich_with_katana:wire"
     }
   },
   "result": {

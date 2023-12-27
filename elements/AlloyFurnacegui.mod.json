@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -160,6 +160,7 @@
         "data": {
           "name": "button_recipe",
           "text": "recipe",
+          "isUndecorated": false,
           "onClick": {
             "name": "FRS_open_pr"
           },

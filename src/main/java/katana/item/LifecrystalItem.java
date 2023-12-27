@@ -21,9 +21,7 @@ import java.util.List;
 
 public class LifecrystalItem extends Item {
 	public LifecrystalItem() {
-		super(new Item.Properties().tab(EnrichWithKatanaModTabs.TAB_ENRICHWITHKATANA).stacksTo(1).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
-
-				.build()));
+		super(new Item.Properties().tab(EnrichWithKatanaModTabs.TAB_ENRICHWITHKATANA).stacksTo(1).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat().build()));
 	}
 
 	@Override
@@ -44,7 +42,6 @@ public class LifecrystalItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		LC_used_prProcedure.execute(world, x, y, z, entity, itemstack);
 		return retval;
 	}

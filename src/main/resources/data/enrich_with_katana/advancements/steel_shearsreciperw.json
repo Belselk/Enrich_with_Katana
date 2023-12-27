@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "enrich_with_katana:steel_shears"
+              "enrich_with_katana:steel_shears\r\n"
             ],
             "count": {
               "min": 1,

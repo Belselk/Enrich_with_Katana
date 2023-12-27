@@ -9,13 +9,13 @@
       "item": "minecraft:slime_ball"
     },
     "3": {
-      "tag": "minecraft:carpets"
+      "tag": "minecraft:wool_carpets"
     },
     "4": {
       "item": "minecraft:redstone"
     },
     "5": {
-      "tag": "minecraft:carpets"
+      "tag": "minecraft:wool_carpets"
     }
   },
   "result": {

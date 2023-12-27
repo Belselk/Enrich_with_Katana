@@ -66,10 +66,10 @@ public class EnrichWithKatanaModVariables {
 			event.getOriginal().revive();
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-			clone.Max_HP = original.Max_HP;
 			clone.swing_cooltime = original.swing_cooltime;
 			clone.style = original.style;
 			clone.tooltip_cheak = original.tooltip_cheak;
+			clone.extend_life = original.extend_life;
 			if (!event.isWasDeath()) {
 				clone.Activation = original.Activation;
 				clone.Damage_Amount = original.Damage_Amount;
@@ -108,12 +108,12 @@ public class EnrichWithKatanaModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double Max_HP = 20.0;
 		public double swing_cooltime = 0;
 		public double Activation = 0.0;
 		public double Damage_Amount = 0;
 		public boolean style = false;
 		public double tooltip_cheak = 0;
+		public double extend_life = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,28 +122,28 @@ public class EnrichWithKatanaModVariables {
 
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putDouble("Max_HP", Max_HP);
 			nbt.putDouble("swing_cooltime", swing_cooltime);
 			nbt.putDouble("Activation", Activation);
 			nbt.putDouble("Damage_Amount", Damage_Amount);
 			nbt.putBoolean("style", style);
 			nbt.putDouble("tooltip_cheak", tooltip_cheak);
+			nbt.putDouble("extend_life", extend_life);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
-			Max_HP = nbt.getDouble("Max_HP");
 			swing_cooltime = nbt.getDouble("swing_cooltime");
 			Activation = nbt.getDouble("Activation");
 			Damage_Amount = nbt.getDouble("Damage_Amount");
 			style = nbt.getBoolean("style");
 			tooltip_cheak = nbt.getDouble("tooltip_cheak");
+			extend_life = nbt.getDouble("extend_life");
 		}
 	}
 
 	public static class PlayerVariablesSyncMessage {
-		public PlayerVariables data;
+		private final PlayerVariables data;
 
 		public PlayerVariablesSyncMessage(FriendlyByteBuf buffer) {
 			this.data = new PlayerVariables();
@@ -163,12 +163,12 @@ public class EnrichWithKatanaModVariables {
 			context.enqueueWork(() -> {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-					variables.Max_HP = message.data.Max_HP;
 					variables.swing_cooltime = message.data.swing_cooltime;
 					variables.Activation = message.data.Activation;
 					variables.Damage_Amount = message.data.Damage_Amount;
 					variables.style = message.data.style;
 					variables.tooltip_cheak = message.data.tooltip_cheak;
+					variables.extend_life = message.data.extend_life;
 				}
 			});
 			context.setPacketHandled(true);
